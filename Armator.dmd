@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Armator" id="62999268-182B-E568-CF90-4697EB980BD3" version="3.5">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 19:02:55 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>62999268-182B-E568-CF90-4697EB980BD3</designId>
+</OSDM_Design>

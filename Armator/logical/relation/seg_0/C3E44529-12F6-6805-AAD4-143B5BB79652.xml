@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Posiada_w_oferciev2" directorySegmentName="seg_0" id="C3E44529-12F6-6805-AAD4-143B5BB79652">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 06:29:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<sourcePk>5A064CCC-3B2F-9FE2-8142-20EE07AAB422</sourcePk>
+<targetPk>96EFEF06-5FE9-461C-3663-7645165D6E11</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C62210E5-58D3-7CB1-6462-279FD007D901</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0A100666-13AA-9175-473B-99788C75741B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

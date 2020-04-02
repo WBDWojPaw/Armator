@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_3" directorySegmentName="seg_0" id="9EDA7CCB-A64E-F603-0AF5-ED02A7CC79BF">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:52:14 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>9DD0A8F5-B4F3-399B-7E18-DE7157DD5F8B</sourceEntity>
+<targetEntity>03A3175D-E4AE-37AF-7B39-28157CB2FDA6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

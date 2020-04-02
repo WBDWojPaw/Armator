@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DD0A8F5-B4F3-399B-7E18-DE7157DD5F8B" name="Pracownik">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:11:14 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nr_pracownika" id="329EF91B-C595-7F09-6A4B-5AC9F7598905">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:11:23 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="34504DD5-D2CB-D94B-81C4-9872D8FC6F6E">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:12:41 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="552688E5-8C29-1DD5-C5FD-8898FA0B6933">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:13:20 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_urodzenia" id="08C4CFCB-5A3E-A80C-3D4C-5F8C3A455454">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:13:39 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="D6A7A19B-0592-8A67-27C4-9E3667660A3C">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:14:11 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plec" id="F8BEA75D-5C9A-B236-4D12-B974FEA8C6F9">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:14:49 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>E36C8007-4822-28E5-80C1-E15D9A6BFFCB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres" id="5B2CC3D3-B470-C1DE-280E-7DE2A0A74854">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:18:37 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stanowisko" id="2F2F35E6-3F65-5F47-E3D3-A17E395F5908">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:18:59 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_zatrudnienia" id="9352E98B-6335-7DF6-1739-BD241EA218EF">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:20:05 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_konta" id="DCEEA1E0-2B50-2C57-6DA1-C8F167717DC2">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:20:32 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>26 CHAR</dataTypeSize>
+<ownDataTypeParameters>26 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="6EE73420-F3ED-507D-2DB7-030FCCDEF8E5">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:23:11 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_telefonu" id="6D28A6A5-0B06-6A63-BB43-44A5A7EAD0BB">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:25:31 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_biura" id="D88B131C-EF45-2B81-B214-495A9D4084EF">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:32:24 UTC</createdTime>
+<generatorID>44745655-4E04-92F3-A5F3-401BD198559A</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C5422975-6E36-B589-7D82-BEEB7DD60944</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="119765CB-32C4-F207-FD22-4DE9E7A2A3DA" name="Pracownik PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-01 21:11:45 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>329EF91B-C595-7F09-6A4B-5AC9F7598905</newElementsIDs>
+<usedAttributes>
+<attributeRef>329EF91B-C595-7F09-6A4B-5AC9F7598905</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
