@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Biuro_posiada_klienta" directorySegmentName="seg_0" id="B4F43786-758D-D29E-2436-EB348703789F">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 10:29:55 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<sourcePk>0C328A27-9C82-66A3-07E4-A3988D875195</sourcePk>
+<targetPk>8B797F22-842C-72D4-BA82-83502A31EE5F</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>802EF413-5181-0792-BD11-9B27215FE9D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C57892FC-09F7-5556-7B17-EC17F8E43F69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

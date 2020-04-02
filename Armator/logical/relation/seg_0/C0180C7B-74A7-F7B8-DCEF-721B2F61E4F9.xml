@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Biuro_zatrudnia_pracownika" directorySegmentName="seg_0" id="C0180C7B-74A7-F7B8-DCEF-721B2F61E4F9">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>44745655-4E04-92F3-A5F3-401BD198559A</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<sourcePk>0C328A27-9C82-66A3-07E4-A3988D875195</sourcePk>
+<targetPk>8A6728C6-1FC3-0424-4FEC-8F10A631D9E3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>802EF413-5181-0792-BD11-9B27215FE9D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>46DF6D35-13B8-9EC2-D37A-28C2ED6B9B19</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03A1F697-9BD4-BB99-08B8-ACB06D13996D" name="Lodz">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>F13118C6-4451-33BC-9B7E-FA441DB4EC0E</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nr_lodzi" id="7222E2F7-6275-F793-B194-DCF70904175A">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>BA1338E6-D867-AA0B-CC61-16569884F5D0</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_biura" id="E8B5E9CC-3A4C-5E9F-3487-A12E755A177B">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<generatorID>4568E664-4533-BB90-6F0F-94F452CD1229</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>25893EE1-4876-EBCA-DC20-8FE631C285C4</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A1AA2ECE-081F-E20A-141E-50121FC4CF31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0951D873-6392-C1DB-F068-3E0B4846F3B4" name="Lodz PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>0E75A963-D3B1-9F69-173B-ECE2FC300E05</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7222E2F7-6275-F793-B194-DCF70904175A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

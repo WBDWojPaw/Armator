@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rejs_ma_miejsce_postoju" directorySegmentName="seg_0" id="388CFED5-32A4-412C-6D66-49A6FAF6F307">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 10:31:33 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<sourcePk>E37C1A35-14CB-A121-6F94-6EA2BF93AA54</sourcePk>
+<targetPk>8A1B9670-D5E7-4FCD-7C89-305F26AC1FD7</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BF15B3BB-92CD-5B5F-4FE6-57C720D7AB1C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA8ED83D-A924-3DDF-8BDD-046025F5E85B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CFDDC20-7CD6-03E2-C775-3B3322E4B387" name="Atrakcja">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DA2B10C-D806-4FF9-6166-CA2A71CC8CE6" name="Atrakcja">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 06:27:41 UTC</createdTime>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<importedID>8CFDDC20-7CD6-03E2-C775-3B3322E4B387</importedID>
 <engineerTo>
-<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +16,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Nr_atrakcji" id="97322D13-40CE-A377-7952-FE90D712AC96">
+<Attribute name="Nr_atrakcji" id="AE51CCD6-2D64-FD03-65BB-51B70DF0C13C">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 06:27:50 UTC</createdTime>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<importedID>97322D13-40CE-A377-7952-FE90D712AC96</importedID>
 <engineerTo>
-<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,16 +31,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2995743C-8B57-1148-7211-BF097D61933F" name="Atrakcja PK">
+<identifier id="DA74F669-7FC9-B9B3-453D-2C6B21BA188E" name="Atrakcja PK">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 06:28:01 UTC</createdTime>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<importedID>2995743C-8B57-1148-7211-BF097D61933F</importedID>
 <engineerTo>
-<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>97322D13-40CE-A377-7952-FE90D712AC96</attributeRef>
+<attributeRef>AE51CCD6-2D64-FD03-65BB-51B70DF0C13C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

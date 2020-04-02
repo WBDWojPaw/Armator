@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="809420FE-43EA-DFE2-13B5-434326A1FF6B" name="Czarter">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>7C106199-6B4B-557D-79F3-F334DC6BF09B</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nr_czarteru" id="9F5AA346-7843-1A68-4441-F681F1B47CD7">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>3BD633FD-D0F2-40DB-BD3B-FBFFDEF1D9AA</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_od" id="2ED0C0A8-4C09-0C25-941D-653BD5F53A2E">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>1878E64F-AF0F-38DA-C9A9-95FC3C841A53</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_do" id="FFCE1B13-6831-2651-F988-7E131F9E2233">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>C360EC73-7EB5-F206-B1F9-167DE9E68957</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_biura" id="85AFCAAE-EA59-16D5-7DB0-07CA5B5AACC0">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<generatorID>1FC40878-315A-C0E1-FEBC-847FD464586F</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>7F7C6E1C-5AD6-AFEB-171F-2D0DE8750AF9</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A1AA2ECE-081F-E20A-141E-50121FC4CF31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCE5C6DA-B13D-E14C-9CF7-7C19BA363B17" name="Czarter PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>B7ABCB85-67D3-8C9D-617D-52CB79991F8A</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F5AA346-7843-1A68-4441-F681F1B47CD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

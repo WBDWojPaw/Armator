@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CFDDC20-7CD6-03E2-C775-3B3322E4B387" name="Atrakcja">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE033CF3-13C4-4142-0C4C-B91BE6B9B181" name="moko">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 06:27:41 UTC</createdTime>
+<createdTime>2020-04-02 11:48:24 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
 <engineerTo>
 <item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
@@ -15,31 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Nr_atrakcji" id="97322D13-40CE-A377-7952-FE90D712AC96">
+<Attribute name="Nr_atrakcji" id="75136DD5-EDE5-78B8-11B0-77DF92F1FCCC">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 06:27:50 UTC</createdTime>
+<createdTime>2020-04-02 11:48:37 UTC</createdTime>
+<generatorID>B8EFBDEC-D306-D608-0EB5-489BB057631B</generatorID>
 <ownerDesignName>Armator</ownerDesignName>
 <engineerTo>
 <item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
 </engineerTo>
+<referedAttribute>97322D13-40CE-A377-7952-FE90D712AC96</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2995743C-8B57-1148-7211-BF097D61933F" name="Atrakcja PK">
-<createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 06:28:01 UTC</createdTime>
-<ownerDesignName>Armator</ownerDesignName>
-<engineerTo>
-<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>97322D13-40CE-A377-7952-FE90D712AC96</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

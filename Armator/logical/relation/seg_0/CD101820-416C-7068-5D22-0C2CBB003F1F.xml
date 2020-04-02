@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Klient_czarteruje" directorySegmentName="seg_0" id="CD101820-416C-7068-5D22-0C2CBB003F1F">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 10:33:34 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<sourcePk>8B797F22-842C-72D4-BA82-83502A31EE5F</sourcePk>
+<targetPk>BCE5C6DA-B13D-E14C-9CF7-7C19BA363B17</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C57892FC-09F7-5556-7B17-EC17F8E43F69</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>809420FE-43EA-DFE2-13B5-434326A1FF6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

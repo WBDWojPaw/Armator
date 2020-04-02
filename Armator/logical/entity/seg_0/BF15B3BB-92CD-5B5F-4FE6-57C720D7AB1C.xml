@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF15B3BB-92CD-5B5F-4FE6-57C720D7AB1C" name="Rejs">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>AD4825B1-2547-0E58-7346-19DA04294225</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nr_rejsu" id="17F686E0-AC9D-B363-E560-98C4946F88C5">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>5EF3CD39-EC6F-A5D5-FD60-71829698460D</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="8389E3EB-ADE4-3A9F-9770-C0502F20D633">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>7B6A0C7A-21FB-8788-D595-1303F5BD8818</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis" id="762BCC8F-C206-B50A-ED09-8308EF7E2907">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>6C89A793-2795-6854-AFBF-3079A777BB86</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_od" id="6F4D2935-61B2-8019-471B-5D2ECDEE1B05">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>47BD6E71-239A-53E7-CA84-2A1A8DF7D2D3</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_do" id="20F7288D-981D-4453-D918-BF667DCF1FCD">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>E9945797-376D-0C07-D48B-C70B579F0E98</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena" id="2058EF7A-AF9C-5709-1D1F-15CF4B1C7E5B">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>77D734F6-791D-57D0-B55D-AF9CD00E5DA4</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_biura" id="82209218-946F-FC89-7453-C8BA1BA108CE">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<generatorID>C515FE00-E58E-5396-E9AC-AA8488F401DA</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>E8AE2A01-71D9-F54A-0EF5-8B3795B94F1C</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A1AA2ECE-081F-E20A-141E-50121FC4CF31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E37C1A35-14CB-A121-6F94-6EA2BF93AA54" name="Rejs PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>3BE17999-0999-1C30-BE91-8EE206C649C4</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17F686E0-AC9D-B363-E560-98C4946F88C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

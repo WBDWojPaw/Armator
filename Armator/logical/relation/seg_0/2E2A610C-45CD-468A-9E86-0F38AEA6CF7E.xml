@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Lodz_jest_przypisana_do_rejsu" directorySegmentName="seg_0" id="2E2A610C-45CD-468A-9E86-0F38AEA6CF7E">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 10:39:31 UTC</createdTime>
+<comment><![CDATA[Rejs moze byc grupowy (wiele lodzi).]]></comment>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<sourcePk>0951D873-6392-C1DB-F068-3E0B4846F3B4</sourcePk>
+<targetPk>E37C1A35-14CB-A121-6F94-6EA2BF93AA54</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>03A1F697-9BD4-BB99-08B8-ACB06D13996D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BF15B3BB-92CD-5B5F-4FE6-57C720D7AB1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

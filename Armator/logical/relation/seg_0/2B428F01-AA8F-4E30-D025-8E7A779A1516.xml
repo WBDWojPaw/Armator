@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rejs_zawiera_kurs" directorySegmentName="seg_0" id="2B428F01-AA8F-4E30-D025-8E7A779A1516">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 07:15:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<importedID>B3CC2C09-5E68-D722-F463-6C12EFA2CF15</importedID>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<sourcePk>E37C1A35-14CB-A121-6F94-6EA2BF93AA54</sourcePk>
+<targetPk>63B41463-DBAB-6FED-F245-3F89FD5B3951</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BF15B3BB-92CD-5B5F-4FE6-57C720D7AB1C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8E11DA7E-312C-E722-E3D0-E093984BDBE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

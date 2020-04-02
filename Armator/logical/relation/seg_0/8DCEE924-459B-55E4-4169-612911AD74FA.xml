@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rejs_zawiera_atrakcje" directorySegmentName="seg_0" id="8DCEE924-459B-55E4-4169-612911AD74FA">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 10:31:08 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<sourcePk>E37C1A35-14CB-A121-6F94-6EA2BF93AA54</sourcePk>
+<targetPk>DA74F669-7FC9-B9B3-453D-2C6B21BA188E</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BF15B3BB-92CD-5B5F-4FE6-57C720D7AB1C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4DA2B10C-D806-4FF9-6166-CA2A71CC8CE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

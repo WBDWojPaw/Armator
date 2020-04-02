@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="B8EFBDEC-D306-D608-0EB5-489BB057631B">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 11:48:37 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="3937FA05-885E-88CD-4454-900FF70B8452" value="true"/>
+</engineerTo>
+<sourcePk>2995743C-8B57-1148-7211-BF097D61933F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8CFDDC20-7CD6-03E2-C775-3B3322E4B387</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE033CF3-13C4-4142-0C4C-B91BE6B9B181</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
