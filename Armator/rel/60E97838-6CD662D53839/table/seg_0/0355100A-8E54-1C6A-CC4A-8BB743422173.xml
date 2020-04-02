@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0355100A-8E54-1C6A-CC4A-8BB743422173" name="Klient_zapisany_na_rejs">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rejs_Nr_rejsu" id="AB7D201E-A129-8EEC-0DC2-51F020F244AA">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F91F539-30DF-B320-C279-30A389D185F1" referredColumn="3D5FD5AA-2A96-FAE9-F8FF-10C0074CFC61"/>
+</associations>
+</Column>
+<Column name="Klient_Nr_klienta" id="6483AC30-F576-DD8E-EC56-F97B2B687B0F">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1585040-80B8-4273-C55C-61B8706561FD" referredColumn="509287C4-63FC-C8FC-CF11-9BBB53C27CF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20AE5CA8-A470-F3F3-73E5-15D71C96F808" name="Klient_zapisany_na_rejs_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7D201E-A129-8EEC-0DC2-51F020F244AA"/>
+<colUsage columnID="6483AC30-F576-DD8E-EC56-F97B2B687B0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E12D197-1DAF-8E4F-B80E-660678F6ED25" name="Klient_zapisany_na_rejs_Rejs_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>1186A830-4B56-2963-C2EB-18FE5D7DFC95</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7D201E-A129-8EEC-0DC2-51F020F244AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4300239C-7FF2-6DE8-C36C-D943B9BBD879" name="Klient_zapisany_na_rejs_Klient_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>1186A830-4B56-2963-C2EB-18FE5D7DFC95</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6483AC30-F576-DD8E-EC56-F97B2B687B0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -29,6 +29,32 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Nr_rejestracyjny" id="CD86F28F-BF4C-0F78-1246-83F746643462">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:02:10 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="25955D7C-7E06-1A8A-BC97-3984F6FCC1A3">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:35:33 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Nr_biura" id="E8B5E9CC-3A4C-5E9F-3487-A12E755A177B">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
@@ -45,15 +71,47 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Nr_modelu" id="00E647CD-19F7-8C19-0F40-0CABCDBB91E3">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:37:05 UTC</createdTime>
+<generatorID>6E4EC1B0-B980-9F4E-CC90-B7B1B221D6CB</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>95279D31-9B28-B5B8-44EF-7432C4AE34D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_placowki" id="6DB4CF5C-D60E-976B-87BA-49B483DC5C17">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:38:50 UTC</createdTime>
+<generatorID>6901ECDD-6EE9-0B55-5AF4-44CB196103C7</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EFFC7492-DEFA-A9A2-88BA-C5367A870F6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0951D873-6392-C1DB-F068-3E0B4846F3B4" name="Lodz PK">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>0E75A963-D3B1-9F69-173B-ECE2FC300E05</importedID>
 <engineerTo>
-<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

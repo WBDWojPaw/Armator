@@ -52,7 +52,6 @@
 <engineerTo>
 <item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -66,8 +65,9 @@
 <engineerTo>
 <item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -76,9 +76,10 @@
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>96EFEF06-5FE9-461C-3663-7645165D6E11</importedID>
 <engineerTo>
-<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

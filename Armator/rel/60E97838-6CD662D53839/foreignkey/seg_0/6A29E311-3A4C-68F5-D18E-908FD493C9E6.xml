@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A29E311-3A4C-68F5-D18E-908FD493C9E6" containerWithKeyObject="F3AB16AC-73BB-5533-BA4F-701FAB499ECA" localFKIndex="F3419ADE-E8A9-50DE-7D96-A00CA2330BE1" name="Klient_czarteruje_Klient_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>CD101820-416C-7068-5D22-0C2CBB003F1F</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<referredTableLongName>Klient</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>870FB4C6-F03E-1407-5968-3A1B8743FCAE</referredTableID>
+<keyObject>C363D32A-0EFF-6186-F3AA-1821A670C28A</keyObject>
+<referredKeyID>C363D32A-0EFF-6186-F3AA-1821A670C28A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nr_klienta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

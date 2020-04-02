@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAEE39D3-B5B7-54D7-31BB-9EE46EE784E1" name="Pracownik_nalezy_do_placowki">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pracownik_Nr_pracownika" id="D942B835-C5FC-C685-54BF-670F95E40E53">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F74C1FB-763D-BFC7-BADD-B05EE2342054" referredColumn="B5A557CF-0ED2-820B-1AFC-B506D455CE0D"/>
+</associations>
+</Column>
+<Column name="Placowka_Nr_placowki" id="2F697BF7-275A-45AF-2077-C78AA8FBCECB">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F784B5D-378D-F2C0-AF0E-8AC847386EEF" referredColumn="0BC11430-82B1-F6D2-2794-6E4000390CDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5342AA1B-F406-217D-10F2-E3637D08339E" name="Pracownik_nalezy_do_placowki_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D942B835-C5FC-C685-54BF-670F95E40E53"/>
+<colUsage columnID="2F697BF7-275A-45AF-2077-C78AA8FBCECB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8345943-C41B-7800-CADE-A7D4EE486720" name="Pracownik_nalezy_do_placowki_Pracownik_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>D6D3BAC3-BA38-56E1-FE43-FAED05D1AA5F</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D942B835-C5FC-C685-54BF-670F95E40E53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A4C6A8E-B9EA-A97D-1433-B9BCAB7D99E3" name="Pracownik_nalezy_do_placowki_Placowka_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>D6D3BAC3-BA38-56E1-FE43-FAED05D1AA5F</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F697BF7-275A-45AF-2077-C78AA8FBCECB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

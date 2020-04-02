@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
 <domains>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="PlecD" id="65BA6903-E766-DA30-7D2E-401493316C1E">
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Plec" id="65BA6903-E766-DA30-7D2E-401493316C1E">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 11:50:47 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
@@ -11,6 +11,18 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <checkConstraint>
 <implementationDef dbType="Oracle Database 12cR2" definition="PLEC IN(&apos;K&apos;, &apos;M&apos;)"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Typ_paliwa" id="C22AE4A7-4E75-A43E-7AD0-29F0E2E00A4E">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:04:57 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12cR2" definition="TYP_PALIWA IN(&apos;D&apos;, &apos;B&apos;)"/>
 </checkConstraint>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">

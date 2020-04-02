@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F72D1178-D556-749D-3B38-4F3B2432F430" name="Lodz">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>03A1F697-9BD4-BB99-08B8-ACB06D13996D</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_lodzi" id="96863C44-1CE7-79B7-575E-B521659B826A">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>7222E2F7-6275-F793-B194-DCF70904175A</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Biuro_Nr_biura" id="735568FA-14BE-B5BA-96DF-24F5B78D699C">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>E8B5E9CC-3A4C-5E9F-3487-A12E755A177B</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B563AEB-A94E-FF1B-895F-304507957E2C" referredColumn="4A830299-9E0A-6A1E-1AC5-F9A9402D2D41"/>
+</associations>
+</Column>
+<Column name="Nr_rejestracyjny" id="994E0436-D861-30FF-8F1F-30D15BEEC240">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>CD86F28F-BF4C-0F78-1246-83F746643462</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="A59C2DC2-98B9-2283-2991-080AB5DBA7D9">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>25955D7C-7E06-1A8A-BC97-3984F6FCC1A3</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model_lodzi_Nr_modelu" id="02E86DE5-D70F-DD3D-7E2D-5D62FA0C64B5">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>00E647CD-19F7-8C19-0F40-0CABCDBB91E3</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E89205BC-D44B-45C3-665F-946223EE7209" referredColumn="6CE19598-939E-C953-B617-3FCF5E084BCE"/>
+</associations>
+</Column>
+<Column name="Placowka_Nr_placowki" id="482A12AE-CC6A-F8FC-649D-B0A2EA6EFF33">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>6DB4CF5C-D60E-976B-87BA-49B483DC5C17</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BA2F7BC-9A9E-CB87-9FD2-7C43805F9C3F" referredColumn="0BC11430-82B1-F6D2-2794-6E4000390CDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAD9A91A-12DA-EF26-87D0-2F207846F15C" name="Lodz_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>0951D873-6392-C1DB-F068-3E0B4846F3B4</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96863C44-1CE7-79B7-575E-B521659B826A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99AD4DE7-2CDA-C3B2-572B-E3E32B0DCB99" name="Lodz_Biuro_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>4568E664-4533-BB90-6F0F-94F452CD1229</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="735568FA-14BE-B5BA-96DF-24F5B78D699C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDC69387-1F88-3CE2-32F3-6E8DC2D52478" name="Lodz_Model_lodzi_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>6E4EC1B0-B980-9F4E-CC90-B7B1B221D6CB</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E86DE5-D70F-DD3D-7E2D-5D62FA0C64B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75C7CC0F-2582-4035-6617-A3799F01A4F0" name="Lodz_Placowka_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>6901ECDD-6EE9-0B55-5AF4-44CB196103C7</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="482A12AE-CC6A-F8FC-649D-B0A2EA6EFF33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

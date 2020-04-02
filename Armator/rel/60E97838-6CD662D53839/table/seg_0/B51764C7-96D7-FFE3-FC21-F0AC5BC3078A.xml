@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B51764C7-96D7-FFE3-FC21-F0AC5BC3078A" name="Rejs_zawiera_kurs">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rejs_Nr_rejsu" id="455458AE-9323-17A4-16A2-65F8F724667E">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7523325-6243-20EE-C78D-BD6ECA4D7AE8" referredColumn="3D5FD5AA-2A96-FAE9-F8FF-10C0074CFC61"/>
+</associations>
+</Column>
+<Column name="Kurs_Nr_kursu" id="9C9EE7E8-3C2A-2B72-3B49-1BAD2D57BF52">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="575F099D-246D-1C20-B2F2-D1FF01C7C52D" referredColumn="F73D34CA-17F8-DBC0-9CEF-787DD599CF4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53985A1F-909A-BEBB-C7FD-DE2E751E50D6" name="Rejs_zawiera_kurs_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="455458AE-9323-17A4-16A2-65F8F724667E"/>
+<colUsage columnID="9C9EE7E8-3C2A-2B72-3B49-1BAD2D57BF52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6904A64D-8FA2-AB88-F799-B73CE08659BA" name="Rejs_zawiera_kurs_Rejs_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>2B428F01-AA8F-4E30-D025-8E7A779A1516</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="455458AE-9323-17A4-16A2-65F8F724667E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FB0F7FF-C2F1-B785-846D-74171448C270" name="Rejs_zawiera_kurs_Kurs_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>2B428F01-AA8F-4E30-D025-8E7A779A1516</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C9EE7E8-3C2A-2B72-3B49-1BAD2D57BF52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -29,6 +29,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Nr_dowodu" id="560EEDA8-7322-82E4-AB49-FDCA60149193">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:22:39 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Nr_biura" id="EBD2C033-72B2-C41E-8D4A-3F5F7E3EC79E">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 10:29:55 UTC</createdTime>
@@ -43,15 +56,81 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Imie" id="3E20621D-7BFA-3A94-298F-EE33C3CE1C7D">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:21:38 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="077D1105-221B-D4B8-2BF8-09069E274D73">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:22:06 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_urodzenia" id="95A36DB1-F049-06D9-4EED-8F83E9C44AB5">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:29:16 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="6F0E6E56-3DA4-A6C4-32B2-94E5424A01D2">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:22:19 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="92BDE809-F919-4244-6AD8-DBA531218B0C">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:28:07 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8B797F22-842C-72D4-BA82-83502A31EE5F" name="Klient PK">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>62FC9DEB-1D11-9E21-D76E-D2E44C0179E0</importedID>
 <engineerTo>
-<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E80F35C2-A268-B37E-C494-0E132D554556" name="Rejs_zaczyna_sie_z_placowki">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Placowka_Nr_placowki" id="C0991DBC-D030-0DA6-DFCD-EBBC83610E40">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2127F6BA-7FAC-67D9-4ED7-F495EF256C7C" referredColumn="0BC11430-82B1-F6D2-2794-6E4000390CDB"/>
+</associations>
+</Column>
+<Column name="Rejs_Nr_rejsu" id="BF572877-D88A-3C51-066E-9D76940BDB47">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA0BF48-DCFC-CCEE-25A3-CDF4D8E8943F" referredColumn="3D5FD5AA-2A96-FAE9-F8FF-10C0074CFC61"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93CE2D74-29D4-EEB2-866E-BAC180B2A05A" name="Rejs_zaczyna_sie_z_placowki_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0991DBC-D030-0DA6-DFCD-EBBC83610E40"/>
+<colUsage columnID="BF572877-D88A-3C51-066E-9D76940BDB47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74B67269-3456-43DC-8A66-1F9D27202FAE" name="Rejs_zaczyna_sie_z_placowki_Placowka_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>D11B5D42-00F7-AA9A-E631-9D8C02056593</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0991DBC-D030-0DA6-DFCD-EBBC83610E40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18E4773F-3C8D-E267-C362-0AA1FF898B2C" name="Rejs_zaczyna_sie_z_placowki_Rejs_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>D11B5D42-00F7-AA9A-E631-9D8C02056593</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF572877-D88A-3C51-066E-9D76940BDB47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

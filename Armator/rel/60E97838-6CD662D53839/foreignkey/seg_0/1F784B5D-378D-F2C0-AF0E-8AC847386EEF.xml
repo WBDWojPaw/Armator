@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F784B5D-378D-F2C0-AF0E-8AC847386EEF" containerWithKeyObject="CAEE39D3-B5B7-54D7-31BB-9EE46EE784E1" localFKIndex="1A4C6A8E-B9EA-A97D-1433-B9BCAB7D99E3" name="Pracownik_nalezy_do_placowki_Placowka_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>D6D3BAC3-BA38-56E1-FE43-FAED05D1AA5F</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<referredTableLongName>Placowka</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4B1B805-742B-EA63-497F-F7E12755CE8F</referredTableID>
+<keyObject>157193F7-36F5-E252-78D4-EF617C8E760C</keyObject>
+<referredKeyID>157193F7-36F5-E252-78D4-EF617C8E760C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nr_placowki</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

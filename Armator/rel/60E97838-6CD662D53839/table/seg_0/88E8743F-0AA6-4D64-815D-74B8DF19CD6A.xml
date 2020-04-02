@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88E8743F-0AA6-4D64-815D-74B8DF19CD6A" name="Pracownik">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>46DF6D35-13B8-9EC2-D37A-28C2ED6B9B19</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_pracownika" id="B5A557CF-0ED2-820B-1AFC-B506D455CE0D">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>9B58CB0E-0EF8-22A0-45B9-C6A165E60986</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="AA39569E-AF30-5E62-60C5-0233508F60EF">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>AFCDFD4B-1F1E-9E6C-5CF3-6380ED0B678D</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="3438E228-D15A-C8F3-34D9-690670CFA979">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>C16FDB84-C583-E810-EB69-C780A707518C</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_urodzenia" id="5D572EA2-FD66-3185-8AD6-E954984888C0">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>E7CB75A0-0D50-637F-46B6-4C41CE6B107C</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESEL" id="A0545E2F-72B1-1E03-741A-D8D292C4724C">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>8B455021-4B16-AA2B-F07A-46F205F5F034</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plec" id="F9E7B280-2615-4450-7058-7AFAC5159AA0">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>527E7FC0-DA4C-5847-D768-60C3F1661879</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>65BA6903-E766-DA30-7D2E-401493316C1E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="2F1D2802-4E83-E10C-9351-505084A1CD4B">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>38D6DD97-2766-2046-8E3E-17F5E443B94D</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stanowisko" id="3708FDD0-BCF7-C165-7A01-41F2BC4EF093">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>E8257382-BFD3-EF64-0DA8-D8E25C9BC28B</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zatrudnienia" id="FFF9B581-3EE6-CA76-47B8-A0DD30C2C9DC">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>DFD337BF-CBB2-07E4-19E9-52E4E5E77686</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_konta" id="2AACC779-D27E-DD1A-D64A-FBE30E959ECB">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>1BFD5659-2C2C-1F0A-DCC2-7ECF77516925</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>26 CHAR</dataTypeSize>
+<ownDataTypeParameters>26 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="72B79A1C-2663-A7B5-4C43-D6DC94B34CE6">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>7D5E29DB-645C-11B4-16E8-CA7A66AC4A9B</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_telefonu" id="99CBC865-5AC7-EDB7-DA93-599E3DF16005">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>A418A86B-0ED5-2C15-5409-7F40AB541809</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Biuro_Nr_biura" id="C4928B00-DC41-6214-D5A1-D27BC5B9E1F3">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>897849D3-28BB-40FC-0D97-1142F8C2B0AA</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CFEDF3E-A7C0-E02B-CD8C-78BB0B25433F" referredColumn="4A830299-9E0A-6A1E-1AC5-F9A9402D2D41"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AFFC924-EE31-66B5-0ABB-1A98EDCDE96A" name="Pracownik_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>8A6728C6-1FC3-0424-4FEC-8F10A631D9E3</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A557CF-0ED2-820B-1AFC-B506D455CE0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1C29BF6-95A3-3029-568F-9756CDD3BDDA" name="Pracownik_Biuro_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>C0180C7B-74A7-F7B8-DCEF-721B2F61E4F9</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4928B00-DC41-6214-D5A1-D27BC5B9E1F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

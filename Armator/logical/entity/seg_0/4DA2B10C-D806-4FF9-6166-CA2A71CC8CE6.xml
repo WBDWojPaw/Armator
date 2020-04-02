@@ -29,15 +29,57 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Nazwa" id="FCB07F66-AA0A-C45F-B7D3-6A0C7FDBFEA8">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:14:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Krotka nazwa, streszczenie opisu. Zacheta.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis" id="6B274C30-74D8-1794-4C5D-169B6341B8CE">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:16:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Szczegolowy opis atrakcji.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres" id="3274C4EB-90B2-AA73-AE1A-968DA9EDD857">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:58:51 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="DA74F669-7FC9-B9B3-453D-2C6B21BA188E" name="Atrakcja PK">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>2995743C-8B57-1148-7211-BF097D61933F</importedID>
 <engineerTo>
-<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

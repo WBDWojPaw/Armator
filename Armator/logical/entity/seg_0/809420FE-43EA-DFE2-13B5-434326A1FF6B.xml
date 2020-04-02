@@ -71,15 +71,31 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Cena" id="9D8C792D-CB53-4B05-CAD3-473583DACF6D">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:52:48 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BCE5C6DA-B13D-E14C-9CF7-7C19BA363B17" name="Czarter PK">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>B7ABCB85-67D3-8C9D-617D-52CB79991F8A</importedID>
 <engineerTo>
-<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

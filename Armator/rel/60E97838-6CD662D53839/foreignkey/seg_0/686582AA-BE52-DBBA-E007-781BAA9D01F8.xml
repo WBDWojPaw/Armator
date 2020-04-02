@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="686582AA-BE52-DBBA-E007-781BAA9D01F8" containerWithKeyObject="63BEF680-ACF1-70B8-DE6C-7CD62D376010" localFKIndex="05C4744D-0CBA-E79D-0D02-5E192D3373C7" name="Lodz_jest_przypisana_do_rejsu_Lodz_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>2E2A610C-45CD-468A-9E86-0F38AEA6CF7E</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<referredTableLongName>Lodz</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F72D1178-D556-749D-3B38-4F3B2432F430</referredTableID>
+<keyObject>AAD9A91A-12DA-EF26-87D0-2F207846F15C</keyObject>
+<referredKeyID>AAD9A91A-12DA-EF26-87D0-2F207846F15C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nr_lodzi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B446886C-533B-325D-A2D3-E0714E738F13" name="Placowka">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
-<comment><![CDATA[Placowka/port w ktorym biuro posiada siedzibe]]></comment>
+<commentInRDBMS><![CDATA[Placowka/port w ktorym biuro posiada siedzibe, skad odbywa rejsy i szkolenia.]]></commentInRDBMS>
 <ownerDesignName>Armator</ownerDesignName>
 <importedID>8B8F9574-41D6-FE6C-B9A9-33FFCC5B5420</importedID>
 <engineerTo>
@@ -30,6 +30,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Nazwa_portu" id="8E0231ED-D3AD-69D2-366A-D7F5419F0FD2">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:49:10 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Nr_biura" id="86AAB538-B558-4E49-7B52-1924484564EF">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
@@ -46,15 +59,41 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Adres" id="0ACACF4A-B085-6604-B57D-2696169D5D12">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:39:30 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_zalozenia" id="9CC0D4F7-392D-042F-0A00-44851EC64BD8">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 16:39:42 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="76BC408B-E6B4-C55F-615F-88512F0B0A55" name="Placowka PK">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>C72118AA-7823-8C07-3B87-2D19243E6728</importedID>
 <engineerTo>
-<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

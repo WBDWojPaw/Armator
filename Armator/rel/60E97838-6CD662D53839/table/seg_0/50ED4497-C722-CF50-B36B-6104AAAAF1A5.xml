@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50ED4497-C722-CF50-B36B-6104AAAAF1A5" name="Kurs">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>8E11DA7E-312C-E722-E3D0-E093984BDBE0</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_kursu" id="F73D34CA-17F8-DBC0-9CEF-787DD599CF4A">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>C5DB8E10-592F-6486-0FA6-21F4DFDC30C2</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Biuro_Nr_biura" id="38CCA34E-B2A9-AE15-3A69-8165C9703D0D">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>E22D4618-8D42-E17D-FD87-D3FD1832FB69</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C00AF6D-7E0E-B555-1F21-9360E99CC6D0" referredColumn="4A830299-9E0A-6A1E-1AC5-F9A9402D2D41"/>
+</associations>
+</Column>
+<Column name="Nazwa" id="A3CDF5AC-AE63-E7A4-3B05-D42402188CFA">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>DA880E41-CFFF-FF47-D47C-BB040F4269D0</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="9D9B59D2-6136-E135-1FC4-882DD51F71E2">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>8351FB9C-863A-A2AE-4925-C9D4136E183C</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F0C2476-E55F-2DC4-39E5-CCE0FB980B16" name="Kurs_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>63B41463-DBAB-6FED-F245-3F89FD5B3951</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F73D34CA-17F8-DBC0-9CEF-787DD599CF4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="182B0702-03AA-6BAC-1D93-134B7E687691" name="Kurs_Biuro_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>6A51DE7F-F16A-07F1-5D4F-12A42642BD31</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38CCA34E-B2A9-AE15-3A69-8165C9703D0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

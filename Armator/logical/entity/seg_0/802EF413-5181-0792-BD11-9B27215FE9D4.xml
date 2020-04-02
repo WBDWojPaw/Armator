@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="802EF413-5181-0792-BD11-9B27215FE9D4" name="Biuro">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
-<commentInRDBMS><![CDATA[Encja biuro/firma.]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Encja biuro/firma. Siedziba glowna, dane do CEIDG.]]></commentInRDBMS>
 <ownerDesignName>Armator</ownerDesignName>
 <importedID>C62210E5-58D3-7CB1-6462-279FD007D901</importedID>
 <engineerTo>
@@ -96,11 +96,13 @@
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>5A064CCC-3B2F-9FE2-8142-20EE07AAB422</importedID>
 <engineerTo>
-<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>A1AA2ECE-081F-E20A-141E-50121FC4CF31</newElementsIDs>
 <usedAttributes>
 <attributeRef>A1AA2ECE-081F-E20A-141E-50121FC4CF31</attributeRef>
 </usedAttributes>

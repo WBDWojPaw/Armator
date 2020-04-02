@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4F91F539-30DF-B320-C279-30A389D185F1" containerWithKeyObject="0355100A-8E54-1C6A-CC4A-8BB743422173" localFKIndex="3E12D197-1DAF-8E4F-B80E-660678F6ED25" name="Klient_zapisany_na_rejs_Rejs_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>1186A830-4B56-2963-C2EB-18FE5D7DFC95</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<referredTableLongName>Rejs</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF49EEBF-D1AD-8923-77F4-F045A68A54F0</referredTableID>
+<keyObject>D30C04D8-A783-661A-5D06-2D882DAFB912</keyObject>
+<referredKeyID>D30C04D8-A783-661A-5D06-2D882DAFB912</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nr_rejsu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

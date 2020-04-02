@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A4CC046-21A4-296B-05B4-91C052F5FE04" name="Czarter">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>809420FE-43EA-DFE2-13B5-434326A1FF6B</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_czarteru" id="253A54A5-C4DF-7742-135B-C1DA88899DED">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>9F5AA346-7843-1A68-4441-F681F1B47CD7</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_od" id="A374AC56-6607-3C9B-D660-E789B7A911ED">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>2ED0C0A8-4C09-0C25-941D-653BD5F53A2E</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_do" id="43620145-64AA-9238-F4A9-32049BCB60E0">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>FFCE1B13-6831-2651-F988-7E131F9E2233</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Biuro_Nr_biura" id="650C8917-A56E-993B-5028-8114F3AB2041">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>85AFCAAE-EA59-16D5-7DB0-07CA5B5AACC0</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6447305B-2599-619E-D0DB-A55961D496F3" referredColumn="4A830299-9E0A-6A1E-1AC5-F9A9402D2D41"/>
+</associations>
+</Column>
+<Column name="Cena" id="0738BEE8-68C3-F010-C2B4-EB31F66A468B">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 17:08:33 UTC</createdTime>
+<generatorID>9D8C792D-CB53-4B05-CAD3-473583DACF6D</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="774DA992-24D8-3CC3-70BA-7A8600D3F83F" name="Czarter_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>BCE5C6DA-B13D-E14C-9CF7-7C19BA363B17</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="253A54A5-C4DF-7742-135B-C1DA88899DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC5BE8E9-4D84-31C9-AEAE-FD1E4FA98A1C" name="Czarter_Biuro_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:26 UTC</createdTime>
+<generatorID>1FC40878-315A-C0E1-FEBC-847FD464586F</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="650C8917-A56E-993B-5028-8114F3AB2041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

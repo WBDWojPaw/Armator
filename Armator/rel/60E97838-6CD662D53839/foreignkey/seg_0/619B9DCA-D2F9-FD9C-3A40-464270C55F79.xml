@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="619B9DCA-D2F9-FD9C-3A40-464270C55F79" containerWithKeyObject="FF49EEBF-D1AD-8923-77F4-F045A68A54F0" localFKIndex="DA8B8613-4B90-74EA-18BA-71806A886ADA" name="Rejs_Biuro_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 12:04:27 UTC</createdTime>
+<generatorID>C515FE00-E58E-5396-E9AC-AA8488F401DA</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<referredTableLongName>Biuro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5CA50CF-7B4B-577C-A1AB-793B500A84F4</referredTableID>
+<keyObject>377D178A-D76C-CEA1-F107-EF43E437A5B5</keyObject>
+<referredKeyID>377D178A-D76C-CEA1-F107-EF43E437A5B5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Nr_biura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pracownik_nalezy_do_placowki" directorySegmentName="seg_0" id="D6D3BAC3-BA38-56E1-FE43-FAED05D1AA5F">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-02 15:55:40 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<sourcePk>8A6728C6-1FC3-0424-4FEC-8F10A631D9E3</sourcePk>
+<targetPk>76BC408B-E6B4-C55F-615F-88512F0B0A55</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>46DF6D35-13B8-9EC2-D37A-28C2ED6B9B19</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B446886C-533B-325D-A2D3-E0714E738F13</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
