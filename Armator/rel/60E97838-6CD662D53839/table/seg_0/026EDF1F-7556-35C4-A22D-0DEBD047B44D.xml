@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="026EDF1F-7556-35C4-A22D-0DEBD047B44D" name="Wlasciciele">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:08:15 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_wlasciciela" id="F37675A1-FE9B-53E2-8A2C-94D8C2A6E4F6">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:09:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unikatowy identyfikator właściciela.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="077B52E5-C56B-53D8-2888-2E8C800F223F">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:12:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imię właściciela.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="3DF64B62-5E06-DE3A-D321-26F1D0AFEB33">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:13:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nazwisko właściciela.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_od" id="299C66B9-DB17-6902-9E8F-1770F9CA81DC">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:14:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Właściciel od.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_do" id="92357658-F7BA-1368-4E01-843BF64EFC4D">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:14:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Właściciel do.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Biura_Nr_biura" id="E86FF80E-9A98-6E59-94EA-423B30575302">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:18:48 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63E27F03-8F5F-66A7-4790-6387399363DD" referredColumn="4A830299-9E0A-6A1E-1AC5-F9A9402D2D41"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B36B1D40-6C02-27DA-461F-DAAA61DDB5C3" name="Wlasciciele_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:09:12 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F37675A1-FE9B-53E2-8A2C-94D8C2A6E4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D90CF4ED-71C1-B494-373B-7E43A7081AE6" name="Wlasciciele_Biura_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:18:48 UTC</createdTime>
+<generatorID>0C328A27-9C82-66A3-07E4-A3988D875195</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E86FF80E-9A98-6E59-94EA-423B30575302"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

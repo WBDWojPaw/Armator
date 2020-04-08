@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22241715-2BDD-EC3A-05D5-5BE639F76225" containerWithKeyObject="2204EB99-13D1-B276-2EE2-1E12954BD740" localFKIndex="B5C3F04B-67A8-7072-A5B1-91CF64EBD258" name="Atrakcja_Adres_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 18:22:59 UTC</createdTime>
+<generatorID>67F50D9A-94C1-5EBA-8585-D1D6D841B4E9</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<referredTableLongName>Adres</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>45CF2FE9-75EA-D1E7-85F4-1608CD552BED</referredTableID>
+<keyObject>B47BF698-612F-B18C-ABE3-BF1B1609523D</keyObject>
+<referredKeyID>B47BF698-612F-B18C-ABE3-BF1B1609523D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_adresu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -33,5 +33,17 @@
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Stanowiska" id="E1EB5580-DAC8-8771-02B7-2A5422535133">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 20:06:11 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12cR2" definition="STANOWISKO IN (&apos;Menadżer&apos;,&apos;Technik&apos;,&apos;Sprzątacz&apos;, &apos;Kapitan&apos;)"/>
+</checkConstraint>
+</Domain>
 </domains>
 </DomainFile>

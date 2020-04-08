@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rejs_zaczyna_sie_z_placowki" directorySegmentName="seg_0" id="D11B5D42-00F7-AA9A-E631-9D8C02056593">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Port_jest_pod_adresem" directorySegmentName="seg_0" id="A110DC32-616A-961E-7433-A2DE921A6660">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 10:41:20 UTC</createdTime>
+<createdTime>2020-04-08 18:14:16 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
 <engineerTo>
 <item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
 </engineerTo>
 <sourcePk>76BC408B-E6B4-C55F-615F-88512F0B0A55</sourcePk>
-<targetPk>E37C1A35-14CB-A121-6F94-6EA2BF93AA54</targetPk>
+<targetPk>3444E4F8-2A2C-A2C0-22B5-23562010A3F2</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>true</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
 <sourceEntity>B446886C-533B-325D-A2D3-E0714E738F13</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>BF15B3BB-92CD-5B5F-4FE6-57C720D7AB1C</targetEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7AA2DD4F-A6BF-FB59-05DA-07AEEF485B1B</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

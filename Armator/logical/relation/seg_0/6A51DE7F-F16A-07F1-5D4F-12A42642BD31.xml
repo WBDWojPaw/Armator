@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Posiada_w_oferciev2" directorySegmentName="seg_0" id="6A51DE7F-F16A-07F1-5D4F-12A42642BD31">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Posiada_w_ofercie" directorySegmentName="seg_0" id="6A51DE7F-F16A-07F1-5D4F-12A42642BD31">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>

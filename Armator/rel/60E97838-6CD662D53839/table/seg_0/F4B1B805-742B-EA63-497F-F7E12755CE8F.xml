@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4B1B805-742B-EA63-497F-F7E12755CE8F" name="Placowka">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4B1B805-742B-EA63-497F-F7E12755CE8F" name="Porty">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 12:04:26 UTC</createdTime>
-<commentInRDBMS><![CDATA[Placowka/port w ktorym biuro posiada siedzibe, skad odbywa rejsy i szkolenia.]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Placówka/port w którym biuro posiada siedzibę, skąd odbywa rejsy i szkolenia.]]></commentInRDBMS>
 <generatorID>B446886C-533B-325D-A2D3-E0714E738F13</generatorID>
 <ownerDesignName>Armator</ownerDesignName>
+<ordsAlias>port</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -48,11 +49,11 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Adres" id="11EB8222-DF03-0C57-019D-E4FD82E39DF5">
+<Column name="Adres" id="8B5A8A8E-D6D9-3F09-0725-BD4FA7A2447E">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 17:08:33 UTC</createdTime>
-<generatorID>0ACACF4A-B085-6604-B57D-2696169D5D12</generatorID>
+<createdTime>2020-04-08 19:25:33 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<deprecated>true</deprecated>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

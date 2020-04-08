@@ -98,20 +98,6 @@
 <domain>65BA6903-E766-DA30-7D2E-401493316C1E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Adres" id="38D6DD97-2766-2046-8E3E-17F5E443B94D">
-<createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 07:15:42 UTC</createdTime>
-<ownerDesignName>Armator</ownerDesignName>
-<importedID>5B2CC3D3-B470-C1DE-280E-7DE2A0A74854</importedID>
-<engineerTo>
-<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Stanowisko" id="E8257382-BFD3-EF64-0DA8-D8E25C9BC28B">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>
@@ -195,6 +181,21 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>A1AA2ECE-081F-E20A-141E-50121FC4CF31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_adresu" id="4E290263-213F-1764-E862-D6A301D8E828">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 17:59:01 UTC</createdTime>
+<generatorID>DABCCF74-0DAF-8BC6-8C13-1ACBB70C452A</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<engineerTo>
+<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A65964BA-A01D-9E09-1D2E-04092A5C242F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

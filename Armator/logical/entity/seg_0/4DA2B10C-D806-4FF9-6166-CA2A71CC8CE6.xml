@@ -56,19 +56,19 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Adres" id="3274C4EB-90B2-AA73-AE1A-968DA9EDD857">
+<Attribute name="Id_adresu" id="3DB2B3D4-4C33-9014-671C-8B33C99FC447">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 16:58:51 UTC</createdTime>
+<createdTime>2020-04-08 18:08:27 UTC</createdTime>
+<generatorID>67F50D9A-94C1-5EBA-8585-D1D6D841B4E9</generatorID>
 <ownerDesignName>Armator</ownerDesignName>
 <engineerTo>
 <item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A65964BA-A01D-9E09-1D2E-04092A5C242F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -82,6 +82,7 @@
 <item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>AE51CCD6-2D64-FD03-65BB-51B70DF0C13C</newElementsIDs>
 <usedAttributes>
 <attributeRef>AE51CCD6-2D64-FD03-65BB-51B70DF0C13C</attributeRef>
 </usedAttributes>

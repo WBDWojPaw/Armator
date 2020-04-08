@@ -9,7 +9,7 @@
 <referredTableID>F5CA50CF-7B4B-577C-A1AB-793B500A84F4</referredTableID>
 <keyObject>377D178A-D76C-CEA1-F107-EF43E437A5B5</keyObject>
 <referredKeyID>377D178A-D76C-CEA1-F107-EF43E437A5B5</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>Nr_biura</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

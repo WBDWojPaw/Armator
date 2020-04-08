@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88E8743F-0AA6-4D64-815D-74B8DF19CD6A" name="Pracownik">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88E8743F-0AA6-4D64-815D-74B8DF19CD6A" name="Pracownicy">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 12:04:26 UTC</createdTime>
 <generatorID>46DF6D35-13B8-9EC2-D37A-28C2ED6B9B19</generatorID>
 <ownerDesignName>Armator</ownerDesignName>
+<ordsAlias>pracownik</ordsAlias>
 <useDDLTransformationScript>true</useDDLTransformationScript>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -79,11 +80,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Adres" id="2F1D2802-4E83-E10C-9351-505084A1CD4B">
+<Column name="Adres" id="711EC623-BB12-5B1D-F223-45C10D253E01">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 12:04:26 UTC</createdTime>
-<generatorID>38D6DD97-2766-2046-8E3E-17F5E443B94D</generatorID>
+<createdTime>2020-04-08 19:23:43 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<deprecated>true</deprecated>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -96,10 +97,10 @@
 <createdTime>2020-04-02 12:04:26 UTC</createdTime>
 <generatorID>E8257382-BFD3-EF64-0DA8-D8E25C9BC28B</generatorID>
 <ownerDesignName>Armator</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20 CHAR</dataTypeSize>
+<domain>E1EB5580-DAC8-8771-02B7-2A5422535133</domain>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -169,6 +170,22 @@
 <colAssociation fkAssociation="3CFEDF3E-A7C0-E02B-CD8C-78BB0B25433F" referredColumn="4A830299-9E0A-6A1E-1AC5-F9A9402D2D41"/>
 </associations>
 </Column>
+<Column name="Adres_Id_adresu" id="0E23933A-A883-D77F-D6E7-1EF2B77F64FC">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 18:22:59 UTC</createdTime>
+<generatorID>4E290263-213F-1764-E862-D6A301D8E828</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F583D9A8-646C-815E-00AA-06673152790A" referredColumn="29D66DDC-3161-9A97-1A45-11F20C2F1D14"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5AFFC924-EE31-66B5-0ABB-1A98EDCDE96A" name="Pracownik_PK">
@@ -192,6 +209,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C4928B00-DC41-6214-D5A1-D27BC5B9E1F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C38D13D9-3FC1-07A3-8ABA-84F5C56F18FA" name="Pracownik_Adres_FK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 18:22:59 UTC</createdTime>
+<generatorID>DABCCF74-0DAF-8BC6-8C13-1ACBB70C452A</generatorID>
+<ownerDesignName>Armator</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E23933A-A883-D77F-D6E7-1EF2B77F64FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

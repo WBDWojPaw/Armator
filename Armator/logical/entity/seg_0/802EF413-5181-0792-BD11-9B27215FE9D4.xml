@@ -46,21 +46,6 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Adres" id="2253032F-5544-8E2C-F732-A5C745769D1C">
-<createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 07:15:42 UTC</createdTime>
-<commentInRDBMS><![CDATA[Adres firmy]]></commentInRDBMS>
-<ownerDesignName>Armator</ownerDesignName>
-<importedID>126407DB-2A45-BA40-07FB-C1C5F23CC477</importedID>
-<engineerTo>
-<item key="60E97838-4E86-B9AB-B738-6CD662D53839" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Data_zalozenia" id="D1DCE31B-249F-8641-330D-986852681EB0">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 07:15:42 UTC</createdTime>

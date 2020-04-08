@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13A8CBBA-1FE5-7242-EA5B-6682197E7CE2" name="Poczty">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:50:08 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_poczty" id="98E8F2B7-177D-48FE-3069-26EEBE8979DF">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:51:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unikatowy identyfikator poczty.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kod_poczty" id="849F7C7A-FEEB-B01C-0A87-2A82CDAC9E01">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:51:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Kod pocztowy.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poczta" id="1AC58E8E-187D-BEB2-9AC7-CB572EFE2FF6">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:52:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Lokalizacja poczty.]]></commentInRDBMS>
+<ownerDesignName>Armator</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E26AE9DD-B23B-DEF9-E287-BA6B771503B6" name="Poczty_PK">
+<createdBy>Nitrox</createdBy>
+<createdTime>2020-04-08 19:51:09 UTC</createdTime>
+<ownerDesignName>Armator</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98E8F2B7-177D-48FE-3069-26EEBE8979DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

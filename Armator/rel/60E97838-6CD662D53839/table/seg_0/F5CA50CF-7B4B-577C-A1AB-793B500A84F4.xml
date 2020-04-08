@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5CA50CF-7B4B-577C-A1AB-793B500A84F4" name="Biuro">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5CA50CF-7B4B-577C-A1AB-793B500A84F4" name="Biura">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 12:04:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Encja biuro/firma. Siedziba glowna, dane do CEIDG.]]></commentInRDBMS>
 <generatorID>802EF413-5181-0792-BD11-9B27215FE9D4</generatorID>
 <ownerDesignName>Armator</ownerDesignName>
+<ordsAlias>biuro</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -34,12 +35,11 @@
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Adres" id="A5E35745-E472-D476-84F3-E5E739B20E9C">
+<Column name="Adres" id="121644EB-C04F-6430-FC91-ACC5258A6EB1">
 <createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 12:04:26 UTC</createdTime>
-<commentInRDBMS><![CDATA[Adres firmy]]></commentInRDBMS>
-<generatorID>2253032F-5544-8E2C-F732-A5C745769D1C</generatorID>
+<createdTime>2020-04-08 19:25:01 UTC</createdTime>
 <ownerDesignName>Armator</ownerDesignName>
+<deprecated>true</deprecated>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -65,6 +65,7 @@
 <commentInRDBMS><![CDATA[Wlasciciel firmy.]]></commentInRDBMS>
 <generatorID>827C836A-57C2-6B1F-F442-2E4E97F38980</generatorID>
 <ownerDesignName>Armator</ownerDesignName>
+<deprecated>true</deprecated>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

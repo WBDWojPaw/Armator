@@ -85,7 +85,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nr_placowki" id="6DB4CF5C-D60E-976B-87BA-49B483DC5C17">
 <createdBy>Nitrox</createdBy>

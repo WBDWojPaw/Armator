@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7FA784C-1FA3-C6EE-20EC-0B596354F644" name="Model_lodzi">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7FA784C-1FA3-C6EE-20EC-0B596354F644" name="Modele_lodzi">
 <createdBy>Nitrox</createdBy>
 <createdTime>2020-04-02 17:08:33 UTC</createdTime>
 <generatorID>AD977673-596E-52EE-67F0-3CBFB794AE77</generatorID>
 <ownerDesignName>Armator</ownerDesignName>
+<ordsAlias>model_lodzi</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
