@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="FBC867C3-DDD8-706D-D374-856554CD3EFC">
-<createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 07:12:31 UTC</createdTime>
-<ownerDesignName>Armator</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>

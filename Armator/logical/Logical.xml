@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="437A305B-5D53-0797-1A5A-3322AD0BA3CE" mainViewID="ABC6DB36-E966-DBEA-CA16-7E7FF15A0C46">
-<createdBy>Nitrox</createdBy>
-<createdTime>2020-04-02 07:12:31 UTC</createdTime>
-<ownerDesignName>Armator</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
