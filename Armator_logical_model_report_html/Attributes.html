@@ -1,0 +1,1815 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Attributes</div><div class="reportStats">sobota, 18 kwietnia 2020 19:46:44</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li><a href="Entities.html">Entities</a></li><li class="selLi"><a href="Attributes.html" class="selAnchor">Attributes</a></li><li><a href="UniqueIdentifiers.html">Unique Identifiers</a></li><li><a href="Relations.html">Relationships</a></li><li><a href="Domains.html">Domains</a></li><li><a href="Rules.html">Rules</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option value="Attribute_{1FF84581-56D0-4556-8501-AA53E7E6BDC5}">Atrakcja.Adres</option><option value="Attribute_{539816A9-EAF9-4D14-B274-7052E07D75A1}">Atrakcja.Nazwa</option><option value="Attribute_{9DAC22AC-E067-43A9-A0A9-7FB9BDC054B8}">Atrakcja.Nr_atrakcji</option><option value="Attribute_{865EC1BC-C554-4F94-BB7A-7A6D69FD635F}">Atrakcja.Opis</option><option>------------</option><option value="Attribute_{53B5160F-6A47-48B1-9F7C-38D52203FFB7}">Biuro.Adres</option><option value="Attribute_{2921990C-E78B-409C-80C0-014F884EE02B}">Biuro.Data_zalozenia</option><option value="Attribute_{7768A00F-88C4-429B-877D-A2A0FE820FDA}">Biuro.Nazwa</option><option value="Attribute_{C8C77E1B-DF19-4198-BF0D-6D341C155BEC}">Biuro.Nr_biura</option><option value="Attribute_{146C05F1-EB28-42AB-85A8-542DD7CD5025}">Biuro.Wlasciciel</option><option>------------</option><option value="Attribute_{61ADCFBF-B2C9-436D-B558-5C8C88503271}">Czarter.Cena</option><option value="Attribute_{2641F361-F328-4D36-B7EC-34CE68F7F5AD}">Czarter.Data_do</option><option value="Attribute_{C807E004-257C-4E33-AEBF-66476684C3F7}">Czarter.Data_od</option><option value="Attribute_{BAD3CD96-A6C6-4C4A-B704-AE51E0A9D0AF}">Czarter.Nr_czarteru</option><option>------------</option><option value="Attribute_{020D6E63-ED16-463A-8CB4-B55B316CAA59}">Klient.Adres</option><option value="Attribute_{5C7D63FF-1F2D-42C4-A260-39EBCF6E66BA}">Klient.Data_urodzenia</option><option value="Attribute_{C38BDDAB-EB43-41B5-9191-71F88749F581}">Klient.Email</option><option value="Attribute_{CAB36B94-A579-4D9C-B2D6-2841363F4E1B}">Klient.Imie</option><option value="Attribute_{7E306B75-A5DB-4975-8104-BEE95D60A62E}">Klient.Nazwisko</option><option value="Attribute_{879D746C-1EB5-46EF-98BB-9D07EB4F5963}">Klient.Nr_dowodu</option><option value="Attribute_{DA8404CD-2A3D-4FF5-966E-B2C2745F1FBC}">Klient.Nr_klienta</option><option value="Attribute_{340DAC00-820C-4B13-906A-68ED96A19500}">Klient.Nr_telefonu</option><option value="Attribute_{AA132580-B2FF-4924-AC3B-8381DF67262F}">Klient.PESEL</option><option>------------</option><option value="Attribute_{12DC0B65-0F2A-4F32-A97D-FFD31B40357C}">Kurs.Nazwa</option><option value="Attribute_{1C0FC2E9-C6D1-4EAC-AFB5-B4775337E97E}">Kurs.Nr_kursu</option><option value="Attribute_{98507EB7-0272-4822-9DDE-7E97623BCCD0}">Kurs.Opis</option><option>------------</option><option value="Attribute_{3184CD13-6851-41C2-8E51-29E800F2FA4A}">Lodz.Nazwa</option><option value="Attribute_{529C1213-B81F-4E60-BAFF-B0D336318842}">Lodz.Nr_lodzi</option><option value="Attribute_{A1078E88-CAEE-43A7-8718-84CB7FE11682}">Lodz.Nr_rejestracyjny</option><option>------------</option><option value="Attribute_{3E3E75EE-8570-4519-A74B-95DBDDB5E52E}">Model_lodzi.Dlugosc_kadluba</option><option value="Attribute_{96628042-E46A-41C0-B052-19E72D43001F}">Model_lodzi.Liczba_osob</option><option value="Attribute_{AE46A27A-D2B1-4423-971F-8982C10A7583}">Model_lodzi.Nazwa</option><option value="Attribute_{3B2CCB35-AFBD-482E-BE79-A2E68CACC842}">Model_lodzi.Nr_modelu</option><option value="Attribute_{D37014BC-EC03-40D4-98A5-F1C5CE076842}">Model_lodzi.Typ</option><option value="Attribute_{8C84872B-0F8F-4709-87F9-076D8ECFFEA5}">Model_lodzi.Typ_paliwa</option><option>------------</option><option value="Attribute_{B2789C15-3941-4F92-B09B-D45ECD920FDF}">Port.Adres</option><option value="Attribute_{5A9F6276-882A-4D12-B93C-9DABFAF7AB79}">Port.Data_zalozenia</option><option value="Attribute_{3C075DFE-79AD-4D6F-910B-228560E5E1CD}">Port.Nazwa_portu</option><option value="Attribute_{02E2557D-A657-4F54-BF03-0C8FE6DBFD82}">Port.Nr_placowki</option><option>------------</option><option value="Attribute_{5BA4FE60-C848-4E04-8025-7198440A2A78}">Pracownik.Adres</option><option value="Attribute_{CB94C24C-0527-4DFE-89A8-728C5AB17B74}">Pracownik.Data_urodzenia</option><option value="Attribute_{77AF1C4A-F14B-4888-9527-10080E57D9E6}">Pracownik.Data_zatrudnienia</option><option value="Attribute_{FA2D33E6-B5D5-49F6-A7BF-A021CE040141}">Pracownik.Email</option><option value="Attribute_{7E5A88FB-A16C-40BA-85F3-B6FB9B0DCA74}">Pracownik.Imie</option><option value="Attribute_{6C6F96DC-1841-4301-8969-AC7C66511C88}">Pracownik.Nazwisko</option><option value="Attribute_{7AE98F06-E115-4C7F-9307-580079D04F2B}">Pracownik.Nr_konta</option><option value="Attribute_{26E8F7BB-1C99-4DC7-B950-9EA743240C0F}">Pracownik.Nr_pracownika</option><option value="Attribute_{D3910AB0-C21B-41CE-AB28-98F9F90D003D}">Pracownik.Nr_telefonu</option><option value="Attribute_{C0242805-4E65-4D0F-89D0-44A938A5B92E}">Pracownik.PESEL</option><option value="Attribute_{13E2A1BB-A3D0-4D34-89B2-F446ADFAD426}">Pracownik.Plec</option><option value="Attribute_{2112F9E4-30D9-40DD-8282-1DC977466BB7}">Pracownik.Stanowisko</option><option>------------</option><option value="Attribute_{2A6368FB-F4AB-4CF1-83DB-557BE6E20432}">Rejs.Cena</option><option value="Attribute_{896B7C57-2FBF-4851-91A0-9795A33FDC16}">Rejs.Data_do</option><option value="Attribute_{9444B75E-7054-4D76-A6E8-EADC2DFCCF36}">Rejs.Data_od</option><option value="Attribute_{4DF3EECA-B1AC-4E33-9011-9F9314B62FCE}">Rejs.Nazwa</option><option value="Attribute_{B7761E1B-DE10-49C0-890C-FF7E10FA612C}">Rejs.Nr_rejsu</option><option value="Attribute_{35F5677B-1674-493E-AA90-08D2F139936B}">Rejs.Opis</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li><a onClick="return showDetail('Attribute_{1FF84581-56D0-4556-8501-AA53E7E6BDC5}', this)">Atrakcja.Adres</a></li><li><a onClick="return showDetail('Attribute_{539816A9-EAF9-4D14-B274-7052E07D75A1}', this)">Atrakcja.Nazwa</a></li><li><a onClick="return showDetail('Attribute_{9DAC22AC-E067-43A9-A0A9-7FB9BDC054B8}', this)">Atrakcja.Nr_atrakcji</a></li><li><a onClick="return showDetail('Attribute_{865EC1BC-C554-4F94-BB7A-7A6D69FD635F}', this)">Atrakcja.Opis</a></li><li class="spacer"></li><li><a onClick="return showDetail('Attribute_{53B5160F-6A47-48B1-9F7C-38D52203FFB7}', this)">Biuro.Adres</a></li><li><a onClick="return showDetail('Attribute_{2921990C-E78B-409C-80C0-014F884EE02B}', this)">Biuro.Data_zalozenia</a></li><li><a onClick="return showDetail('Attribute_{7768A00F-88C4-429B-877D-A2A0FE820FDA}', this)">Biuro.Nazwa</a></li><li><a onClick="return showDetail('Attribute_{C8C77E1B-DF19-4198-BF0D-6D341C155BEC}', this)">Biuro.Nr_biura</a></li><li><a onClick="return showDetail('Attribute_{146C05F1-EB28-42AB-85A8-542DD7CD5025}', this)">Biuro.Wlasciciel</a></li><li class="spacer"></li><li><a onClick="return showDetail('Attribute_{61ADCFBF-B2C9-436D-B558-5C8C88503271}', this)">Czarter.Cena</a></li><li><a onClick="return showDetail('Attribute_{2641F361-F328-4D36-B7EC-34CE68F7F5AD}', this)">Czarter.Data_do</a></li><li><a onClick="return showDetail('Attribute_{C807E004-257C-4E33-AEBF-66476684C3F7}', this)">Czarter.Data_od</a></li><li><a onClick="return showDetail('Attribute_{BAD3CD96-A6C6-4C4A-B704-AE51E0A9D0AF}', this)">Czarter.Nr_czarteru</a></li><li class="spacer"></li><li><a onClick="return showDetail('Attribute_{020D6E63-ED16-463A-8CB4-B55B316CAA59}', this)">Klient.Adres</a></li><li><a onClick="return showDetail('Attribute_{5C7D63FF-1F2D-42C4-A260-39EBCF6E66BA}', this)">Klient.Data_urodzenia</a></li><li><a onClick="return showDetail('Attribute_{C38BDDAB-EB43-41B5-9191-71F88749F581}', this)">Klient.Email</a></li><li><a onClick="return showDetail('Attribute_{CAB36B94-A579-4D9C-B2D6-2841363F4E1B}', this)">Klient.Imie</a></li><li><a onClick="return showDetail('Attribute_{7E306B75-A5DB-4975-8104-BEE95D60A62E}', this)">Klient.Nazwisko</a></li><li><a onClick="return showDetail('Attribute_{879D746C-1EB5-46EF-98BB-9D07EB4F5963}', this)">Klient.Nr_dowodu</a></li><li><a onClick="return showDetail('Attribute_{DA8404CD-2A3D-4FF5-966E-B2C2745F1FBC}', this)">Klient.Nr_klienta</a></li><li><a onClick="return showDetail('Attribute_{340DAC00-820C-4B13-906A-68ED96A19500}', this)">Klient.Nr_telefonu</a></li><li><a onClick="return showDetail('Attribute_{AA132580-B2FF-4924-AC3B-8381DF67262F}', this)">Klient.PESEL</a></li><li class="spacer"></li><li><a onClick="return showDetail('Attribute_{12DC0B65-0F2A-4F32-A97D-FFD31B40357C}', this)">Kurs.Nazwa</a></li><li><a onClick="return showDetail('Attribute_{1C0FC2E9-C6D1-4EAC-AFB5-B4775337E97E}', this)">Kurs.Nr_kursu</a></li><li><a onClick="return showDetail('Attribute_{98507EB7-0272-4822-9DDE-7E97623BCCD0}', this)">Kurs.Opis</a></li><li class="spacer"></li><li><a onClick="return showDetail('Attribute_{3184CD13-6851-41C2-8E51-29E800F2FA4A}', this)">Lodz.Nazwa</a></li><li><a onClick="return showDetail('Attribute_{529C1213-B81F-4E60-BAFF-B0D336318842}', this)">Lodz.Nr_lodzi</a></li><li><a onClick="return showDetail('Attribute_{A1078E88-CAEE-43A7-8718-84CB7FE11682}', this)">Lodz.Nr_rejestracyjny</a></li><li class="spacer"></li><li><a onClick="return showDetail('Attribute_{3E3E75EE-8570-4519-A74B-95DBDDB5E52E}', this)">Model_lodzi.Dlugosc_kadluba</a></li><li><a onClick="return showDetail('Attribute_{96628042-E46A-41C0-B052-19E72D43001F}', this)">Model_lodzi.Liczba_osob</a></li><li><a onClick="return showDetail('Attribute_{AE46A27A-D2B1-4423-971F-8982C10A7583}', this)">Model_lodzi.Nazwa</a></li><li><a onClick="return showDetail('Attribute_{3B2CCB35-AFBD-482E-BE79-A2E68CACC842}', this)">Model_lodzi.Nr_modelu</a></li><li><a onClick="return showDetail('Attribute_{D37014BC-EC03-40D4-98A5-F1C5CE076842}', this)">Model_lodzi.Typ</a></li><li><a onClick="return showDetail('Attribute_{8C84872B-0F8F-4709-87F9-076D8ECFFEA5}', this)">Model_lodzi.Typ_paliwa</a></li><li class="spacer"></li><li><a onClick="return showDetail('Attribute_{B2789C15-3941-4F92-B09B-D45ECD920FDF}', this)">Port.Adres</a></li><li><a onClick="return showDetail('Attribute_{5A9F6276-882A-4D12-B93C-9DABFAF7AB79}', this)">Port.Data_zalozenia</a></li><li><a onClick="return showDetail('Attribute_{3C075DFE-79AD-4D6F-910B-228560E5E1CD}', this)">Port.Nazwa_portu</a></li><li><a onClick="return showDetail('Attribute_{02E2557D-A657-4F54-BF03-0C8FE6DBFD82}', this)">Port.Nr_placowki</a></li><li class="spacer"></li><li><a onClick="return showDetail('Attribute_{5BA4FE60-C848-4E04-8025-7198440A2A78}', this)">Pracownik.Adres</a></li><li><a onClick="return showDetail('Attribute_{CB94C24C-0527-4DFE-89A8-728C5AB17B74}', this)">Pracownik.Data_urodzenia</a></li><li><a onClick="return showDetail('Attribute_{77AF1C4A-F14B-4888-9527-10080E57D9E6}', this)">Pracownik.Data_zatrudnienia</a></li><li><a onClick="return showDetail('Attribute_{FA2D33E6-B5D5-49F6-A7BF-A021CE040141}', this)">Pracownik.Email</a></li><li><a onClick="return showDetail('Attribute_{7E5A88FB-A16C-40BA-85F3-B6FB9B0DCA74}', this)">Pracownik.Imie</a></li><li><a onClick="return showDetail('Attribute_{6C6F96DC-1841-4301-8969-AC7C66511C88}', this)">Pracownik.Nazwisko</a></li><li><a onClick="return showDetail('Attribute_{7AE98F06-E115-4C7F-9307-580079D04F2B}', this)">Pracownik.Nr_konta</a></li><li><a onClick="return showDetail('Attribute_{26E8F7BB-1C99-4DC7-B950-9EA743240C0F}', this)">Pracownik.Nr_pracownika</a></li><li><a onClick="return showDetail('Attribute_{D3910AB0-C21B-41CE-AB28-98F9F90D003D}', this)">Pracownik.Nr_telefonu</a></li><li><a onClick="return showDetail('Attribute_{C0242805-4E65-4D0F-89D0-44A938A5B92E}', this)">Pracownik.PESEL</a></li><li><a onClick="return showDetail('Attribute_{13E2A1BB-A3D0-4D34-89B2-F446ADFAD426}', this)">Pracownik.Plec</a></li><li><a onClick="return showDetail('Attribute_{2112F9E4-30D9-40DD-8282-1DC977466BB7}', this)">Pracownik.Stanowisko</a></li><li class="spacer"></li><li><a onClick="return showDetail('Attribute_{2A6368FB-F4AB-4CF1-83DB-557BE6E20432}', this)">Rejs.Cena</a></li><li><a onClick="return showDetail('Attribute_{896B7C57-2FBF-4851-91A0-9795A33FDC16}', this)">Rejs.Data_do</a></li><li><a onClick="return showDetail('Attribute_{9444B75E-7054-4D76-A6E8-EADC2DFCCF36}', this)">Rejs.Data_od</a></li><li><a onClick="return showDetail('Attribute_{4DF3EECA-B1AC-4E33-9011-9F9314B62FCE}', this)">Rejs.Nazwa</a></li><li><a onClick="return showDetail('Attribute_{B7761E1B-DE10-49C0-890C-FF7E10FA612C}', this)">Rejs.Nr_rejsu</a></li><li><a onClick="return showDetail('Attribute_{35F5677B-1674-493E-AA90-08D2F139936B}', this)">Rejs.Opis</a></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><div id="Attribute_{1FF84581-56D0-4556-8501-AA53E7E6BDC5}" class="item">
+<a name = "Attribute_{1FF84581-56D0-4556-8501-AA53E7E6BDC5}"></a>
+<div class="caption1"><p>Atrakcja.Adres</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Adres</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Atrakcja</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(400)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Adres atrakcji, pole segmentowe, które zawiera informacje takie jak miasto, ulica, numer lokalu, kod poczty i siedzibę poczty.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{539816A9-EAF9-4D14-B274-7052E07D75A1}" class="item">
+<a name = "Attribute_{539816A9-EAF9-4D14-B274-7052E07D75A1}"></a>
+<div class="caption1"><p>Atrakcja.Nazwa</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nazwa</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Atrakcja</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Nazwa atrakcji.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{9DAC22AC-E067-43A9-A0A9-7FB9BDC054B8}" class="item">
+<a name = "Attribute_{9DAC22AC-E067-43A9-A0A9-7FB9BDC054B8}"></a>
+<div class="caption1"><p>Atrakcja.Nr_atrakcji</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_atrakcji</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Atrakcja</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer atrakcji - unikatowy identyfikator (klucz).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{865EC1BC-C554-4F94-BB7A-7A6D69FD635F}" class="item">
+<a name = "Attribute_{865EC1BC-C554-4F94-BB7A-7A6D69FD635F}"></a>
+<div class="caption1"><p>Atrakcja.Opis</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Opis</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Atrakcja</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(200)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Opis atrakcji (bardziej szczegółowy).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{53B5160F-6A47-48B1-9F7C-38D52203FFB7}" class="item">
+<a name = "Attribute_{53B5160F-6A47-48B1-9F7C-38D52203FFB7}"></a>
+<div class="caption1"><p>Biuro.Adres</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Adres</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Biuro</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(400)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Adres biura, pole segmentowe, które zawiera informacje takie jak miasto, ulica, numer lokalu, kod poczty i siedzibę poczty.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{2921990C-E78B-409C-80C0-014F884EE02B}" class="item">
+<a name = "Attribute_{2921990C-E78B-409C-80C0-014F884EE02B}"></a>
+<div class="caption1"><p>Biuro.Data_zalozenia</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Data_zalozenia</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Biuro</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Date</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Data założenia biura.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{7768A00F-88C4-429B-877D-A2A0FE820FDA}" class="item">
+<a name = "Attribute_{7768A00F-88C4-429B-877D-A2A0FE820FDA}"></a>
+<div class="caption1"><p>Biuro.Nazwa</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nazwa</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Biuro</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Nazwa biura.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{C8C77E1B-DF19-4198-BF0D-6D341C155BEC}" class="item">
+<a name = "Attribute_{C8C77E1B-DF19-4198-BF0D-6D341C155BEC}"></a>
+<div class="caption1"><p>Biuro.Nr_biura</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_biura</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Biuro</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer biura - unikatowy identyfikator (klucz).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{146C05F1-EB28-42AB-85A8-542DD7CD5025}" class="item">
+<a name = "Attribute_{146C05F1-EB28-42AB-85A8-542DD7CD5025}"></a>
+<div class="caption1"><p>Biuro.Wlasciciel</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Wlasciciel</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Biuro</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(25)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Aktualny właściciel biura, pole segmentowe (imię, nazwisko), wielowartościowe.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{61ADCFBF-B2C9-436D-B558-5C8C88503271}" class="item">
+<a name = "Attribute_{61ADCFBF-B2C9-436D-B558-5C8C88503271}"></a>
+<div class="caption1"><p>Czarter.Cena</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Cena</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Czarter</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Money</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Cena czarteru.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{2641F361-F328-4D36-B7EC-34CE68F7F5AD}" class="item">
+<a name = "Attribute_{2641F361-F328-4D36-B7EC-34CE68F7F5AD}"></a>
+<div class="caption1"><p>Czarter.Data_do</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Data_do</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Czarter</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Date</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Data zakończenia wypożyczenia.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{C807E004-257C-4E33-AEBF-66476684C3F7}" class="item">
+<a name = "Attribute_{C807E004-257C-4E33-AEBF-66476684C3F7}"></a>
+<div class="caption1"><p>Czarter.Data_od</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Data_od</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Czarter</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Date</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Data rozpoczęcia wypożyczenia.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{BAD3CD96-A6C6-4C4A-B704-AE51E0A9D0AF}" class="item">
+<a name = "Attribute_{BAD3CD96-A6C6-4C4A-B704-AE51E0A9D0AF}"></a>
+<div class="caption1"><p>Czarter.Nr_czarteru</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_czarteru</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Czarter</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer czarteru - unikatowy identyfikator (klucz).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{020D6E63-ED16-463A-8CB4-B55B316CAA59}" class="item">
+<a name = "Attribute_{020D6E63-ED16-463A-8CB4-B55B316CAA59}"></a>
+<div class="caption1"><p>Klient.Adres</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Adres</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Klient</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(400)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Adres klienta, pole segmentowe, które zawiera informacje takie jak miasto, ulica, numer lokalu, kod poczty i siedzibę poczty.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{5C7D63FF-1F2D-42C4-A260-39EBCF6E66BA}" class="item">
+<a name = "Attribute_{5C7D63FF-1F2D-42C4-A260-39EBCF6E66BA}"></a>
+<div class="caption1"><p>Klient.Data_urodzenia</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Data_urodzenia</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Klient</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Date</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Data urodzenia klienta.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{C38BDDAB-EB43-41B5-9191-71F88749F581}" class="item">
+<a name = "Attribute_{C38BDDAB-EB43-41B5-9191-71F88749F581}"></a>
+<div class="caption1"><p>Klient.Email</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Email</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Klient</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Email klienta.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{CAB36B94-A579-4D9C-B2D6-2841363F4E1B}" class="item">
+<a name = "Attribute_{CAB36B94-A579-4D9C-B2D6-2841363F4E1B}"></a>
+<div class="caption1"><p>Klient.Imie</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Imie</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Klient</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Imię klienta.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{7E306B75-A5DB-4975-8104-BEE95D60A62E}" class="item">
+<a name = "Attribute_{7E306B75-A5DB-4975-8104-BEE95D60A62E}"></a>
+<div class="caption1"><p>Klient.Nazwisko</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nazwisko</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Klient</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Nazwisko klienta.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{879D746C-1EB5-46EF-98BB-9D07EB4F5963}" class="item">
+<a name = "Attribute_{879D746C-1EB5-46EF-98BB-9D07EB4F5963}"></a>
+<div class="caption1"><p>Klient.Nr_dowodu</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_dowodu</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Klient</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer dowodu osobistego klienta.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{DA8404CD-2A3D-4FF5-966E-B2C2745F1FBC}" class="item">
+<a name = "Attribute_{DA8404CD-2A3D-4FF5-966E-B2C2745F1FBC}"></a>
+<div class="caption1"><p>Klient.Nr_klienta</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_klienta</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Klient</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer klienta - unikatowy identyfikator (klucz).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{340DAC00-820C-4B13-906A-68ED96A19500}" class="item">
+<a name = "Attribute_{340DAC00-820C-4B13-906A-68ED96A19500}"></a>
+<div class="caption1"><p>Klient.Nr_telefonu</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_telefonu</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Klient</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer telefonu klienta.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{AA132580-B2FF-4924-AC3B-8381DF67262F}" class="item">
+<a name = "Attribute_{AA132580-B2FF-4924-AC3B-8381DF67262F}"></a>
+<div class="caption1"><p>Klient.PESEL</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">PESEL</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Klient</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(12)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer pesel klienta.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{12DC0B65-0F2A-4F32-A97D-FFD31B40357C}" class="item">
+<a name = "Attribute_{12DC0B65-0F2A-4F32-A97D-FFD31B40357C}"></a>
+<div class="caption1"><p>Kurs.Nazwa</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nazwa</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Kurs</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Nazwa danego kursu.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{1C0FC2E9-C6D1-4EAC-AFB5-B4775337E97E}" class="item">
+<a name = "Attribute_{1C0FC2E9-C6D1-4EAC-AFB5-B4775337E97E}"></a>
+<div class="caption1"><p>Kurs.Nr_kursu</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_kursu</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Kurs</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer kursu - unikatowy identyfikator (klucz).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{98507EB7-0272-4822-9DDE-7E97623BCCD0}" class="item">
+<a name = "Attribute_{98507EB7-0272-4822-9DDE-7E97623BCCD0}"></a>
+<div class="caption1"><p>Kurs.Opis</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Opis</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Kurs</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(200)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Opis danego kursu (bardziej szczegółowy).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{3184CD13-6851-41C2-8E51-29E800F2FA4A}" class="item">
+<a name = "Attribute_{3184CD13-6851-41C2-8E51-29E800F2FA4A}"></a>
+<div class="caption1"><p>Lodz.Nazwa</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nazwa</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Lodz</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Nazwa łodzi.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{529C1213-B81F-4E60-BAFF-B0D336318842}" class="item">
+<a name = "Attribute_{529C1213-B81F-4E60-BAFF-B0D336318842}"></a>
+<div class="caption1"><p>Lodz.Nr_lodzi</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_lodzi</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Lodz</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer łodzi - unikatowy identyfikator (klucz).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{A1078E88-CAEE-43A7-8718-84CB7FE11682}" class="item">
+<a name = "Attribute_{A1078E88-CAEE-43A7-8718-84CB7FE11682}"></a>
+<div class="caption1"><p>Lodz.Nr_rejestracyjny</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_rejestracyjny</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Lodz</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer rejestracyjny łódki.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{3E3E75EE-8570-4519-A74B-95DBDDB5E52E}" class="item">
+<a name = "Attribute_{3E3E75EE-8570-4519-A74B-95DBDDB5E52E}"></a>
+<div class="caption1"><p>Model_lodzi.Dlugosc_kadluba</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Dlugosc_kadluba</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Model_lodzi</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Decimal(4, 2)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Długość kadłuba w metrach (z dokładnościa do cm).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{96628042-E46A-41C0-B052-19E72D43001F}" class="item">
+<a name = "Attribute_{96628042-E46A-41C0-B052-19E72D43001F}"></a>
+<div class="caption1"><p>Model_lodzi.Liczba_osob</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Liczba_osob</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Model_lodzi</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Maksymalna ilość osób (załogi wraz z kapitanem).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{AE46A27A-D2B1-4423-971F-8982C10A7583}" class="item">
+<a name = "Attribute_{AE46A27A-D2B1-4423-971F-8982C10A7583}"></a>
+<div class="caption1"><p>Model_lodzi.Nazwa</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nazwa</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Model_lodzi</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Nazwa modelu łodzi.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{3B2CCB35-AFBD-482E-BE79-A2E68CACC842}" class="item">
+<a name = "Attribute_{3B2CCB35-AFBD-482E-BE79-A2E68CACC842}"></a>
+<div class="caption1"><p>Model_lodzi.Nr_modelu</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_modelu</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Model_lodzi</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer modelu łodzi - unikatowy identyfikator (klucz).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{D37014BC-EC03-40D4-98A5-F1C5CE076842}" class="item">
+<a name = "Attribute_{D37014BC-EC03-40D4-98A5-F1C5CE076842}"></a>
+<div class="caption1"><p>Model_lodzi.Typ</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Typ</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Model_lodzi</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(16)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Określenie typu łodzi (ket, slup, sluter itp.).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{8C84872B-0F8F-4709-87F9-076D8ECFFEA5}" class="item">
+<a name = "Attribute_{8C84872B-0F8F-4709-87F9-076D8ECFFEA5}"></a>
+<div class="caption1"><p>Model_lodzi.Typ_paliwa</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Typ_paliwa</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Model_lodzi</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Domain</td>
+<td class="tabdata" width="80%">TypPaliwa</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Character(1)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Rules</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Rule Name</td>
+<td class="tabdata" width="80%">TypPaliwaR</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Rule</td>
+<td class="tabdata" width="80%">TYP_PALIWA IN ('BENZYNA', 'DIESEL', 'LPG', 'HYBRYDOWY', 'ELEKTRYCZNY', 'INNY')</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Typ paliwa wykorzystywany przez dany model (benzyna, diesel, lpg, hybrydowy, elektryczny, bądź inny).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{B2789C15-3941-4F92-B09B-D45ECD920FDF}" class="item">
+<a name = "Attribute_{B2789C15-3941-4F92-B09B-D45ECD920FDF}"></a>
+<div class="caption1"><p>Port.Adres</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Adres</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Port</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(400)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Adres portu, pole segmentowe, które zawiera informacje takie jak kraj, miasto, ulica, numer lokalu, kod poczty i siedzibę poczty.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{5A9F6276-882A-4D12-B93C-9DABFAF7AB79}" class="item">
+<a name = "Attribute_{5A9F6276-882A-4D12-B93C-9DABFAF7AB79}"></a>
+<div class="caption1"><p>Port.Data_zalozenia</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Data_zalozenia</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Port</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Date</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Data założenia placówki w porcie.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{3C075DFE-79AD-4D6F-910B-228560E5E1CD}" class="item">
+<a name = "Attribute_{3C075DFE-79AD-4D6F-910B-228560E5E1CD}"></a>
+<div class="caption1"><p>Port.Nazwa_portu</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nazwa_portu</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Port</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Nazwa konkretnego portu</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{02E2557D-A657-4F54-BF03-0C8FE6DBFD82}" class="item">
+<a name = "Attribute_{02E2557D-A657-4F54-BF03-0C8FE6DBFD82}"></a>
+<div class="caption1"><p>Port.Nr_placowki</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_placowki</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Port</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">klucz główny</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{5BA4FE60-C848-4E04-8025-7198440A2A78}" class="item">
+<a name = "Attribute_{5BA4FE60-C848-4E04-8025-7198440A2A78}"></a>
+<div class="caption1"><p>Pracownik.Adres</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Adres</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(400)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Adres pracownika, pole segmentowe, które zawiera informacje takie jak miasto, ulica, numer lokalu, kod poczty i siedzibę poczty.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{CB94C24C-0527-4DFE-89A8-728C5AB17B74}" class="item">
+<a name = "Attribute_{CB94C24C-0527-4DFE-89A8-728C5AB17B74}"></a>
+<div class="caption1"><p>Pracownik.Data_urodzenia</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Data_urodzenia</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Date</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Data urodzenia pracownika.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{77AF1C4A-F14B-4888-9527-10080E57D9E6}" class="item">
+<a name = "Attribute_{77AF1C4A-F14B-4888-9527-10080E57D9E6}"></a>
+<div class="caption1"><p>Pracownik.Data_zatrudnienia</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Data_zatrudnienia</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Date</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Data zatrudnienia pracownika.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{FA2D33E6-B5D5-49F6-A7BF-A021CE040141}" class="item">
+<a name = "Attribute_{FA2D33E6-B5D5-49F6-A7BF-A021CE040141}"></a>
+<div class="caption1"><p>Pracownik.Email</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Email</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(30)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Email pracownika.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{7E5A88FB-A16C-40BA-85F3-B6FB9B0DCA74}" class="item">
+<a name = "Attribute_{7E5A88FB-A16C-40BA-85F3-B6FB9B0DCA74}"></a>
+<div class="caption1"><p>Pracownik.Imie</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Imie</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Imię pracownika.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{6C6F96DC-1841-4301-8969-AC7C66511C88}" class="item">
+<a name = "Attribute_{6C6F96DC-1841-4301-8969-AC7C66511C88}"></a>
+<div class="caption1"><p>Pracownik.Nazwisko</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nazwisko</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Nazwisko pracownika.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{7AE98F06-E115-4C7F-9307-580079D04F2B}" class="item">
+<a name = "Attribute_{7AE98F06-E115-4C7F-9307-580079D04F2B}"></a>
+<div class="caption1"><p>Pracownik.Nr_konta</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_konta</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Character(26)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer konta bankowego pracownika.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{26E8F7BB-1C99-4DC7-B950-9EA743240C0F}" class="item">
+<a name = "Attribute_{26E8F7BB-1C99-4DC7-B950-9EA743240C0F}"></a>
+<div class="caption1"><p>Pracownik.Nr_pracownika</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_pracownika</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer pracownika - unikatowy identyfikator (klucz).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{D3910AB0-C21B-41CE-AB28-98F9F90D003D}" class="item">
+<a name = "Attribute_{D3910AB0-C21B-41CE-AB28-98F9F90D003D}"></a>
+<div class="caption1"><p>Pracownik.Nr_telefonu</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_telefonu</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer telefonu pracownika.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{C0242805-4E65-4D0F-89D0-44A938A5B92E}" class="item">
+<a name = "Attribute_{C0242805-4E65-4D0F-89D0-44A938A5B92E}"></a>
+<div class="caption1"><p>Pracownik.PESEL</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">PESEL</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(12)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer pesel pracownika.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{13E2A1BB-A3D0-4D34-89B2-F446ADFAD426}" class="item">
+<a name = "Attribute_{13E2A1BB-A3D0-4D34-89B2-F446ADFAD426}"></a>
+<div class="caption1"><p>Pracownik.Plec</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Plec</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Domain</td>
+<td class="tabdata" width="80%">Plec</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Character(1)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Płeć pracownika (M - mężczyzna, K - kobieta).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{2112F9E4-30D9-40DD-8282-1DC977466BB7}" class="item">
+<a name = "Attribute_{2112F9E4-30D9-40DD-8282-1DC977466BB7}"></a>
+<div class="caption1"><p>Pracownik.Stanowisko</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Stanowisko</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Pracownik</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Domain</td>
+<td class="tabdata" width="80%">Stanowisko</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Stanowisko pracownika (menadżer, kapitan, technik, sprzątacz, bądź inne).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{2A6368FB-F4AB-4CF1-83DB-557BE6E20432}" class="item">
+<a name = "Attribute_{2A6368FB-F4AB-4CF1-83DB-557BE6E20432}"></a>
+<div class="caption1"><p>Rejs.Cena</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Cena</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Rejs</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Money</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Cena rejsu.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{896B7C57-2FBF-4851-91A0-9795A33FDC16}" class="item">
+<a name = "Attribute_{896B7C57-2FBF-4851-91A0-9795A33FDC16}"></a>
+<div class="caption1"><p>Rejs.Data_do</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Data_do</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Rejs</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Date</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Data zakończenia rejsu.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{9444B75E-7054-4D76-A6E8-EADC2DFCCF36}" class="item">
+<a name = "Attribute_{9444B75E-7054-4D76-A6E8-EADC2DFCCF36}"></a>
+<div class="caption1"><p>Rejs.Data_od</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Data_od</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Rejs</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Date</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Data rozpoczęcia rejsu.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{4DF3EECA-B1AC-4E33-9011-9F9314B62FCE}" class="item">
+<a name = "Attribute_{4DF3EECA-B1AC-4E33-9011-9F9314B62FCE}"></a>
+<div class="caption1"><p>Rejs.Nazwa</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nazwa</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Rejs</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(20)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Nazwa rejsu.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{B7761E1B-DE10-49C0-890C-FF7E10FA612C}" class="item">
+<a name = "Attribute_{B7761E1B-DE10-49C0-890C-FF7E10FA612C}"></a>
+<div class="caption1"><p>Rejs.Nr_rejsu</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Nr_rejsu</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Rejs</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Primary Unique Identifier</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">Integer</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Numer rejsu - unikatowy identyfikator (klucz).</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Attribute_{35F5677B-1674-493E-AA90-08D2F139936B}" class="item">
+<a name = "Attribute_{35F5677B-1674-493E-AA90-08D2F139936B}"></a>
+<div class="caption1"><p>Rejs.Opis</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Opis</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Entity Name</td>
+<td class="tabdata" width="80%">Rejs</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Data Type</td>
+<td class="tabdata" width="80%">VarChar(200)</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Mandatory</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Description</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Opis rejsu.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>

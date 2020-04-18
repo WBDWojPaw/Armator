@@ -1,0 +1,2858 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Entities</div><div class="reportStats">sobota, 18 kwietnia 2020 20:23:16</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li class="selLi"><a href="Tables.html" class="selAnchor">Entities</a></li><li><a href="Columns.html">Attributes</a></li><li><a href="Indexes.html">Indexes</a></li><li><a href="Keys.html">Keys</a></li><li><a href="Relations.html">Relationships</a></li><li><a href="Domains.html">Domains</a></li><li><a href="CheckRules.html">Check Constraint Rules</a></li><li><a href="CheckConstraints.html">Check Constraints</a></li><li><a href="Sequences.html">Sequences</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option value="Table_{440DA412-D613-41E0-9BF2-5D1D2C732741}">Adresy</option><option value="Table_{0ADEFA6B-18A9-4321-A31F-5A8E94F96F65}">Atrakcje</option><option value="Table_{F16B528D-41B8-4986-8036-0DCBEA6D0B0F}">Biura</option><option value="Table_{A2063EB4-022C-4815-B1B2-62448C9A3EEB}">Czartery</option><option value="Table_{5FB8E586-048F-4C97-ACB6-941B69E1F1BE}">Klienci</option><option value="Table_{2D9A3FD0-F80E-48CA-A60E-F199A260FEFF}">Klient_Rejs</option><option value="Table_{7DCCDA45-97B9-4BE8-8D47-A916A57FAE77}">Kursy</option><option value="Table_{77329066-B3EE-46E6-9EF3-103CAA6F5B27}">Lodz_Czarter</option><option value="Table_{4E750BB8-FCD8-426F-8287-3E85B30E1F17}">Lodzie</option><option value="Table_{9A1A676A-3C89-4120-B106-DCFD42F67D09}">Modele_lodzi</option><option value="Table_{9ABCCF22-BEA5-4D0A-BCE9-A5FC45B4E95D}">Poczty</option><option value="Table_{2758A7C1-A8D7-4BAC-A35B-95D9095803C9}">Port_Pracownik</option><option value="Table_{8D666DA6-208B-4435-9DAA-ADF192703D3E}">Porty</option><option value="Table_{BB989BB5-66B6-4AE2-AAF0-74218FE40658}">Pracownicy</option><option value="Table_{FFA01251-2A37-4A77-BF36-E0426317EEAC}">Rejs_Atrakcja</option><option value="Table_{3A6EADCC-6D62-447D-B090-90D3AC868234}">Rejs_Kurs</option><option value="Table_{6BD4787F-2FD5-4901-B1B7-7E53C309DAD4}">Rejs_Lodz</option><option value="Table_{7742FB9C-4913-4D30-90A6-78C632CB1AEB}">Rejs_Port</option><option value="Table_{57DF2B4D-9592-42E0-8534-AD9E6CF38ADE}">Rejsy</option><option value="Table_{DA11E485-0DC0-48AE-95ED-43AA79D380F9}">Wlasciciele</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li><a onClick="return showDetail('Table_{440DA412-D613-41E0-9BF2-5D1D2C732741}', this)">Adresy</a></li><li><a onClick="return showDetail('Table_{0ADEFA6B-18A9-4321-A31F-5A8E94F96F65}', this)">Atrakcje</a></li><li><a onClick="return showDetail('Table_{F16B528D-41B8-4986-8036-0DCBEA6D0B0F}', this)">Biura</a></li><li><a onClick="return showDetail('Table_{A2063EB4-022C-4815-B1B2-62448C9A3EEB}', this)">Czartery</a></li><li><a onClick="return showDetail('Table_{5FB8E586-048F-4C97-ACB6-941B69E1F1BE}', this)">Klienci</a></li><li><a onClick="return showDetail('Table_{2D9A3FD0-F80E-48CA-A60E-F199A260FEFF}', this)">Klient_Rejs</a></li><li><a onClick="return showDetail('Table_{7DCCDA45-97B9-4BE8-8D47-A916A57FAE77}', this)">Kursy</a></li><li><a onClick="return showDetail('Table_{77329066-B3EE-46E6-9EF3-103CAA6F5B27}', this)">Lodz_Czarter</a></li><li><a onClick="return showDetail('Table_{4E750BB8-FCD8-426F-8287-3E85B30E1F17}', this)">Lodzie</a></li><li><a onClick="return showDetail('Table_{9A1A676A-3C89-4120-B106-DCFD42F67D09}', this)">Modele_lodzi</a></li><li><a onClick="return showDetail('Table_{9ABCCF22-BEA5-4D0A-BCE9-A5FC45B4E95D}', this)">Poczty</a></li><li><a onClick="return showDetail('Table_{2758A7C1-A8D7-4BAC-A35B-95D9095803C9}', this)">Port_Pracownik</a></li><li><a onClick="return showDetail('Table_{8D666DA6-208B-4435-9DAA-ADF192703D3E}', this)">Porty</a></li><li><a onClick="return showDetail('Table_{BB989BB5-66B6-4AE2-AAF0-74218FE40658}', this)">Pracownicy</a></li><li><a onClick="return showDetail('Table_{FFA01251-2A37-4A77-BF36-E0426317EEAC}', this)">Rejs_Atrakcja</a></li><li><a onClick="return showDetail('Table_{3A6EADCC-6D62-447D-B090-90D3AC868234}', this)">Rejs_Kurs</a></li><li><a onClick="return showDetail('Table_{6BD4787F-2FD5-4901-B1B7-7E53C309DAD4}', this)">Rejs_Lodz</a></li><li><a onClick="return showDetail('Table_{7742FB9C-4913-4D30-90A6-78C632CB1AEB}', this)">Rejs_Port</a></li><li><a onClick="return showDetail('Table_{57DF2B4D-9592-42E0-8534-AD9E6CF38ADE}', this)">Rejsy</a></li><li><a onClick="return showDetail('Table_{DA11E485-0DC0-48AE-95ED-43AA79D380F9}', this)">Wlasciciele</a></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><div id="Table_{440DA412-D613-41E0-9BF2-5D1D2C732741}" class="item">
+<a name = "Table_{440DA412-D613-41E0-9BF2-5D1D2C732741}"></a>
+<div class="caption1"><p>Adresy</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Adresy</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer adresu - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Kraj</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Kraj adresu.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Miasto</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Miasto adresu.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Ulica</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Ulica adresu.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nr_lokalu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer lokalu adresu.</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_poczty</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">1:1</td>
+</tr>
+<tr>
+<td class="tabdata">Adres_ma_poczte</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Poczty</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Pracownik_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Pracownicy</td>
+<td class="tabdata">1:1</td>
+</tr>
+<tr>
+<td class="tabdata">Adrakcja_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Atrakcje</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Klient_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Klienci</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Port_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">PK_&lt;%OwnerName%&gt;</td>
+<td class="tabdata" width="60%">Nr_adresu</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Relationship3</td>
+<td class="tabdata">Nr_poczty</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja adres.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{0ADEFA6B-18A9-4321-A31F-5A8E94F96F65}" class="item">
+<a name = "Table_{0ADEFA6B-18A9-4321-A31F-5A8E94F96F65}"></a>
+<div class="caption1"><p>Atrakcje</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Atrakcje</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_atrakcji</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer atrakcji - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa atrakcji.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Opis</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Opis atrakcji (bardziej szczegółowy).</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_ma_atrakcje_Atrakcja</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Atrakcje</td>
+<td class="tabdata">Rejs_Atrakcja</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Adrakcja_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Atrakcje</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">AtrakcjaPK</td>
+<td class="tabdata" width="60%">Nr_atrakcji</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Relationship5</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja atrakcja.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{F16B528D-41B8-4986-8036-0DCBEA6D0B0F}" class="item">
+<a name = "Table_{F16B528D-41B8-4986-8036-0DCBEA6D0B0F}"></a>
+<div class="caption1"><p>Biura</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Biura</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer biura - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa biura.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_zalozenia</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data założenia biura.</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_zatrudnia_pracownika</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Pracownicy</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_posiada_placowke_w_porcie</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_posiada_lodki</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_oferuje_czarter</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Czartery</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_oferuje_kurs</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Kursy</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_posiada_klienta</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Klienci</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_oferuje_rejs</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_ma_wlasciciela</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Wlasciciele</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">1:1</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">BiuroPK</td>
+<td class="tabdata" width="60%">Nr_biura</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Relationship2</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja biuro.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{A2063EB4-022C-4815-B1B2-62448C9A3EEB}" class="item">
+<a name = "Table_{A2063EB4-022C-4815-B1B2-62448C9A3EEB}"></a>
+<div class="caption1"><p>Czartery</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Czartery</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_czarteru</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer czarteru - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_od</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data rozpoczęcia wypożyczenia.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_do</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data zakończenia wypożyczenia.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Cena</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number(10,2)</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Cena czarteru.</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_klienta</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Lodz_jest_czarterowana_Czarter</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Czartery</td>
+<td class="tabdata">Lodz_Czarter</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Klient_czarteruje</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Klienci</td>
+<td class="tabdata">Czartery</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_oferuje_czarter</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Czartery</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">CzarterPK</td>
+<td class="tabdata" width="60%">Nr_czarteru</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Klient_czarteruje</td>
+<td class="tabdata">Nr_klienta</td>
+<td class="tabdata">NO</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Biuro_oferuje_czarter</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja czarter.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{5FB8E586-048F-4C97-ACB6-941B69E1F1BE}" class="item">
+<a name = "Table_{5FB8E586-048F-4C97-ACB6-941B69E1F1BE}"></a>
+<div class="caption1"><p>Klienci</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Klienci</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_klienta</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer klienta - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Imie</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Imię klienta.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwisko</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwisko klienta.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PESEL</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(12 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer pesel klienta.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_urodzenia</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data urodzenia klienta.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nr_dowodu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer dowodu osobistego klienta.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nr_telefonu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer telefonu klienta.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Email</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Email klienta.</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Klient_czarteruje</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Klienci</td>
+<td class="tabdata">Czartery</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_posiada_klienta</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Klienci</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Klient_zapisuje_sie_na_rejs_Klient</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Klienci</td>
+<td class="tabdata">Klient_Rejs</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Klient_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Klienci</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">KlientPK</td>
+<td class="tabdata" width="60%">Nr_klienta</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Biuro_posiada_klienta</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata">NO</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Relationship6</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja klient.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{2D9A3FD0-F80E-48CA-A60E-F199A260FEFF}" class="item">
+<a name = "Table_{2D9A3FD0-F80E-48CA-A60E-F199A260FEFF}"></a>
+<div class="caption1"><p>Klient_Rejs</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Klient_Rejs</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_klienta</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_rejsu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Klient_zapisuje_sie_na_rejs_Klient</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Klienci</td>
+<td class="tabdata">Klient_Rejs</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Klient_zapisuje_sie_na_rejs_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Klient_Rejs</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">Key11</td>
+<td class="tabdata" width="60%">Nr_klienta, Nr_rejsu</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{7DCCDA45-97B9-4BE8-8D47-A916A57FAE77}" class="item">
+<a name = "Table_{7DCCDA45-97B9-4BE8-8D47-A916A57FAE77}"></a>
+<div class="caption1"><p>Kursy</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Kursy</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_kursu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer kursu - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa danego kursu.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Opis</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Opis danego kursu (bardziej szczegółowy).</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_oferuje_kurs</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Kursy</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_zawiera_kurs_Kurs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Kursy</td>
+<td class="tabdata">Rejs_Kurs</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">KursPK</td>
+<td class="tabdata" width="60%">Nr_kursu</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Biuro_oferuje_kurs</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja kurs.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{77329066-B3EE-46E6-9EF3-103CAA6F5B27}" class="item">
+<a name = "Table_{77329066-B3EE-46E6-9EF3-103CAA6F5B27}"></a>
+<div class="caption1"><p>Lodz_Czarter</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Lodz_Czarter</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_lodzi</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_czarteru</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Lodz_jest_czarterowana_Lodz</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">Lodz_Czarter</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Lodz_jest_czarterowana_Czarter</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Czartery</td>
+<td class="tabdata">Lodz_Czarter</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">Key3</td>
+<td class="tabdata" width="60%">Nr_lodzi, Nr_czarteru</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{4E750BB8-FCD8-426F-8287-3E85B30E1F17}" class="item">
+<a name = "Table_{4E750BB8-FCD8-426F-8287-3E85B30E1F17}"></a>
+<div class="caption1"><p>Lodzie</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Lodzie</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_lodzi</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer łodzi - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa łodzi.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nr_rejestracyjny</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer rejestracyjny łódki.</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_modelu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_placowki</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_posiada_lodki</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Lodz_jest_modelu</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Modele_lodzi</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Lodz_jest_czarterowana_Lodz</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">Lodz_Czarter</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Lodz_nalezy_do_portu</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_jest_przypisany_do_lodzi_Lodz</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">Rejs_Lodz</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">LodzPK</td>
+<td class="tabdata" width="60%">Nr_lodzi</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Biuro_posiada_lodki</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata">NO</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Lodz_jest_modelu</td>
+<td class="tabdata">Nr_modelu</td>
+<td class="tabdata">NO</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Lodz_nalezy_do_portu</td>
+<td class="tabdata">Nr_placowki</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja łódź.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{9A1A676A-3C89-4120-B106-DCFD42F67D09}" class="item">
+<a name = "Table_{9A1A676A-3C89-4120-B106-DCFD42F67D09}"></a>
+<div class="caption1"><p>Modele_lodzi</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Modele_lodzi</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_modelu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer modelu łodzi - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa modelu łodzi.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Dlugosc_kadluba</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number(4,2)</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Długość kadłuba w metrach (z dokładnościa do cm).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Liczba_osob</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Maksymalna ilość osób (załogi wraz z kapitanem).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Typ</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(16 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Określenie typu łodzi (ket, slup, sluter itp.).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Typ_paliwa</td>
+<td class="tabdata">TypPaliwa</td>
+<td class="tabdata">Char(1 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">YES</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Typ paliwa wykorzystywany przez dany model (benzyna, diesel, lpg, hybrydowy, elektryczny, bądź inny).</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Lodz_jest_modelu</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Modele_lodzi</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">Model_lodziPK</td>
+<td class="tabdata" width="60%">Nr_modelu</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja model łodzi.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{9ABCCF22-BEA5-4D0A-BCE9-A5FC45B4E95D}" class="item">
+<a name = "Table_{9ABCCF22-BEA5-4D0A-BCE9-A5FC45B4E95D}"></a>
+<div class="caption1"><p>Poczty</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Poczty</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_poczty</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer poczty - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Kod_poczty</td>
+<td class="tabdata"></td>
+<td class="tabdata">Char(6 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Kod poczty.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Poczta</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Lokalizacja poczty.</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Adres_ma_poczte</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Poczty</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">PK_&lt;%OwnerName%&gt;</td>
+<td class="tabdata" width="60%">Nr_poczty</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">AK</td>
+<td class="tabdata" width="30%">Kod_poczty</td>
+<td class="tabdata" width="60%">Kod_poczty</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja port.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{2758A7C1-A8D7-4BAC-A35B-95D9095803C9}" class="item">
+<a name = "Table_{2758A7C1-A8D7-4BAC-A35B-95D9095803C9}"></a>
+<div class="caption1"><p>Port_Pracownik</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Port_Pracownik</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_placowki</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_pracownika</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Placowka_zatrudnia_pracownika_Port</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">Port_Pracownik</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Placowka_zatrudnia_pracownika_Pracownik</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Pracownicy</td>
+<td class="tabdata">Port_Pracownik</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">Key1</td>
+<td class="tabdata" width="60%">Nr_placowki, Nr_pracownika</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{8D666DA6-208B-4435-9DAA-ADF192703D3E}" class="item">
+<a name = "Table_{8D666DA6-208B-4435-9DAA-ADF192703D3E}"></a>
+<div class="caption1"><p>Porty</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Porty</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_placowki</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">klucz główny</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa_portu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa konkretnego portu</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_zalozenia</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data założenia placówki w porcie.</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Placowka_zatrudnia_pracownika_Port</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">Port_Pracownik</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_posiada_placowke_w_porcie</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Lodz_nalezy_do_portu</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_odwiedza_port_Port</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">Rejs_Port</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Port_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">PortPK</td>
+<td class="tabdata" width="60%">Nr_placowki</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Biuro_posiada_placowke_w_porcie</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata">NO</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Relationship7</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja port. Placówka/port w którym biuro posiada siedzibę, skąd odbywa rejsy i szkolenia. Również port odwiedzany podczas rejsu, niekoniecznie placówka.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{BB989BB5-66B6-4AE2-AAF0-74218FE40658}" class="item">
+<a name = "Table_{BB989BB5-66B6-4AE2-AAF0-74218FE40658}"></a>
+<div class="caption1"><p>Pracownicy</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Pracownicy</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_pracownika</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer pracownika - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Imie</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Imię pracownika.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwisko</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwisko pracownika.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PESEL</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(12 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer pesel pracownika.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_urodzenia</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data urodzenia pracownika.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Plec</td>
+<td class="tabdata">Plec</td>
+<td class="tabdata">Char(1 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Płeć pracownika (M - mężczyzna, K - kobieta).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_zatrudnienia</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data zatrudnienia pracownika.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Stanowisko</td>
+<td class="tabdata">Stanowisko</td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Stanowisko pracownika (menadżer, kapitan, technik, sprzątacz, bądź inne).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nr_konta</td>
+<td class="tabdata"></td>
+<td class="tabdata">Char(26 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer konta bankowego pracownika.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nr_telefonu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer telefonu pracownika.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Email</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Email pracownika.</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_zatrudnia_pracownika</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Pracownicy</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Placowka_zatrudnia_pracownika_Pracownik</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Pracownicy</td>
+<td class="tabdata">Port_Pracownik</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Pracownik_ma_adres</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Adresy</td>
+<td class="tabdata">Pracownicy</td>
+<td class="tabdata">1:1</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">PracownikPK</td>
+<td class="tabdata" width="60%">Nr_pracownika</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Biuro_zatrudnia_pracownika</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata">NO</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Relationship4</td>
+<td class="tabdata">Nr_adresu</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja pracownik.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{FFA01251-2A37-4A77-BF36-E0426317EEAC}" class="item">
+<a name = "Table_{FFA01251-2A37-4A77-BF36-E0426317EEAC}"></a>
+<div class="caption1"><p>Rejs_Atrakcja</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Rejs_Atrakcja</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_rejsu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_atrakcji</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_ma_atrakcje_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Rejs_Atrakcja</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_ma_atrakcje_Atrakcja</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Atrakcje</td>
+<td class="tabdata">Rejs_Atrakcja</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">Key5</td>
+<td class="tabdata" width="60%">Nr_rejsu, Nr_atrakcji</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{3A6EADCC-6D62-447D-B090-90D3AC868234}" class="item">
+<a name = "Table_{3A6EADCC-6D62-447D-B090-90D3AC868234}"></a>
+<div class="caption1"><p>Rejs_Kurs</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Rejs_Kurs</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_rejsu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_kursu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_zawiera_kurs_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Rejs_Kurs</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_zawiera_kurs_Kurs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Kursy</td>
+<td class="tabdata">Rejs_Kurs</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">Key7</td>
+<td class="tabdata" width="60%">Nr_rejsu, Nr_kursu</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{6BD4787F-2FD5-4901-B1B7-7E53C309DAD4}" class="item">
+<a name = "Table_{6BD4787F-2FD5-4901-B1B7-7E53C309DAD4}"></a>
+<div class="caption1"><p>Rejs_Lodz</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Rejs_Lodz</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_rejsu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_lodzi</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_jest_przypisany_do_lodzi_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Rejs_Lodz</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_jest_przypisany_do_lodzi_Lodz</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Lodzie</td>
+<td class="tabdata">Rejs_Lodz</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">Key13</td>
+<td class="tabdata" width="60%">Nr_rejsu, Nr_lodzi</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{7742FB9C-4913-4D30-90A6-78C632CB1AEB}" class="item">
+<a name = "Table_{7742FB9C-4913-4D30-90A6-78C632CB1AEB}"></a>
+<div class="caption1"><p>Rejs_Port</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Rejs_Port</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_rejsu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata">PFK</td>
+<td class="tabdata">Nr_placowki</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_odwiedza_port_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Rejs_Port</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_odwiedza_port_Port</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Porty</td>
+<td class="tabdata">Rejs_Port</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">Key9</td>
+<td class="tabdata" width="60%">Nr_rejsu, Nr_placowki</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{57DF2B4D-9592-42E0-8534-AD9E6CF38ADE}" class="item">
+<a name = "Table_{57DF2B4D-9592-42E0-8534-AD9E6CF38ADE}"></a>
+<div class="caption1"><p>Rejsy</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Rejsy</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_rejsu</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer rejsu - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwa rejsu.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Opis</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Opis rejsu.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_od</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data rozpoczęcia rejsu.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_do</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data zakończenia rejsu.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Cena</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number(10,2)</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Cena rejsu.</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_ma_atrakcje_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Rejs_Atrakcja</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_zawiera_kurs_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Rejs_Kurs</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_oferuje_rejs</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_odwiedza_port_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Rejs_Port</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Klient_zapisuje_sie_na_rejs_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Klient_Rejs</td>
+<td class="tabdata">1:N</td>
+</tr>
+<tr>
+<td class="tabdata">Rejs_jest_przypisany_do_lodzi_Rejs</td>
+<td class="tabdata">Identifying</td>
+<td class="tabdata">Rejsy</td>
+<td class="tabdata">Rejs_Lodz</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">RejsPK</td>
+<td class="tabdata" width="60%">Nr_rejsu</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Biuro_oferuje_rejs</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja rejs.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{DA11E485-0DC0-48AE-95ED-43AA79D380F9}" class="item">
+<a name = "Table_{DA11E485-0DC0-48AE-95ED-43AA79D380F9}"></a>
+<div class="caption1"><p>Wlasciciele</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Wlasciciele</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+<td class="tabhead"></td>
+<td class="tabhead">Notes</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">Nr_wlasciciela</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Numer właściciela - unikatowy identyfikator (klucz).</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Imie</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Imię właściciela.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwisko</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Nazwisko właściciela.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_od</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data od kiedy właściciel.</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">Data_do</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"></td>
+<td class="tabdata">Data do kiedy właściciel.</td>
+</tr>
+<tr>
+<td class="tabdata">FK</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+<td class="tabdata"  colspan="2"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Relationship Name</td>
+<td class="tabhead">Relationship Type</td>
+<td class="tabhead">Parent Entity</td>
+<td class="tabhead">Child Entity</td>
+<td class="tabhead">Card.</td>
+</tr>
+<tr>
+<td class="tabdata">Biuro_ma_wlasciciela</td>
+<td class="tabdata">Non-identifying</td>
+<td class="tabdata">Biura</td>
+<td class="tabdata">Wlasciciele</td>
+<td class="tabdata">1:N</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">PK_&lt;%OwnerName%&gt;</td>
+<td class="tabdata" width="60%">Nr_wlasciciela</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">IX_Relationship1</td>
+<td class="tabdata">Nr_biura</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Notes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">Encja właściciel.</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>
