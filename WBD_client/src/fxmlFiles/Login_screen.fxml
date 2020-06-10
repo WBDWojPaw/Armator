@@ -4,7 +4,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
@@ -19,11 +18,7 @@
             <Label fx:id="labelPassword" layoutX="426.0" layoutY="365.0" text="Label" />
             <Label fx:id="labelTitle" alignment="CENTER" layoutX="316.0" layoutY="193.0" prefHeight="88.0" prefWidth="368.0" text="Label" textAlignment="CENTER" wrapText="true" />
             <PasswordField fx:id="passwordFieldPassword" layoutX="426.0" layoutY="382.0" />
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="400.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../photos/image.png" />
-               </image>
-            </ImageView>
+            <ImageView fx:id="imageViewSign" fitHeight="150.0" fitWidth="200.0" layoutX="400.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
    </children>

@@ -23,12 +23,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
@@ -171,9 +173,9 @@ public class User_screen_controller {
 	{
 		// Go to new screen
 		FXMLLoader fxmlLoader = new FXMLLoader();
-		Pane p = fxmlLoader.load(getClass().getResource("/fxmlFiles/Login_screen.fxml").openStream());
+		Pane p = fxmlLoader.load(getClass().getResource("/fxmlFiles/Login_screen.fxml"));
 		Login_screen_controller login_screen_controller = (Login_screen_controller) fxmlLoader.getController();
-		login_screen_controller.setAnchorPane(rootPane);
+		//login_screen_controller.setAnchorPane(rootPane);
 		rootPane.getChildren().setAll(p);
 	}
 		
@@ -213,11 +215,17 @@ public class User_screen_controller {
 		boolean isNotOk = validateUsersArgument(userTextName);
 		if(isNotOk)
 		{
+			Alert error = new Alert(AlertType.ERROR);
+			error.setContentText("Zosta³y wykorzystane niedozwolone znaki w polu nazwa kolumny");
+			error.show();
 			return;
 		}
 		isNotOk = validateUsersArgument(userTextValue);
 		if(isNotOk)
 		{
+			Alert error = new Alert(AlertType.ERROR);
+			error.setContentText("Zosta³y wykorzystane niedozwolone znaki w polu wartoœæ kolumny");
+			error.show();
 			return;
 		}
 		

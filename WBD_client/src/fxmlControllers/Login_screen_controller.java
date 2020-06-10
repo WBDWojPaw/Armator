@@ -20,6 +20,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundImage;
@@ -48,6 +49,8 @@ public class Login_screen_controller {
 	private TextField textFieldLogin;
 	@FXML
 	private PasswordField passwordFieldPassword;
+	@FXML
+	private ImageView imageViewSign;
 	
 	@FXML
 	public void initialize()
@@ -59,12 +62,16 @@ public class Login_screen_controller {
 		buttonLogin.setText("Zaloguj siê");
 		
 		//Set Background
+		FileInputStream inputback;
 		FileInputStream input;
 		try 
 		{
-			input = new FileInputStream("C:\\Users\\user\\eclipse-workspace\\WBD_client\\photos\\Sea.jpg");
+			input = new FileInputStream("C:\\Users\\user\\eclipse-workspace\\WBD_client\\photos\\image.png");
 			Image image = new Image(input);
-			BackgroundImage backgroundimage = new BackgroundImage(image,
+			imageViewSign = new ImageView(image);
+			inputback = new FileInputStream("C:\\Users\\user\\eclipse-workspace\\WBD_client\\photos\\Sea.jpg");
+			Image imageback = new Image(inputback);
+			BackgroundImage backgroundimage = new BackgroundImage(imageback,
 												BackgroundRepeat.NO_REPEAT,
 												BackgroundRepeat.NO_REPEAT,
 												BackgroundPosition.DEFAULT,

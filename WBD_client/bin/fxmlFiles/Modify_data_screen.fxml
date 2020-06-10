@@ -13,7 +13,7 @@
          <children>
             <ScrollPane hbarPolicy="NEVER" layoutX="184.0" layoutY="74.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="420.0" prefWidth="400.0" vbarPolicy="ALWAYS">
                <content>
-                  <VBox fx:id="vBoxUserMenu" nodeOrientation="LEFT_TO_RIGHT" prefHeight="416.0" prefWidth="384.0" />
+                  <VBox fx:id="vBoxUserMenu" alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="416.0" prefWidth="384.0" />
                </content>
             </ScrollPane>
             <Button fx:id="buttonClose" layoutX="15.0" layoutY="539.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="30.0" prefWidth="130.0" text="Button" />

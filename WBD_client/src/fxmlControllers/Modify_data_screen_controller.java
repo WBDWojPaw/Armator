@@ -10,6 +10,7 @@ import java.util.regex.Pattern;
 import connectionToDataBase.DBConnection;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
@@ -180,6 +181,7 @@ public class Modify_data_screen_controller {
 				insertTextFields[i-1] = textField;
 				textField.setPrefHeight(textFieldHeight); 
 				textField.setPrefWidth(vBoxUserMenu.getPrefWidth());
+				textField.setPadding(new Insets(10));
 				vBoxUserMenu.getChildren().add(textField);
 				vBoxUserMenu.setAlignment(Pos.TOP_LEFT);
 				
@@ -199,6 +201,7 @@ public class Modify_data_screen_controller {
 			vBoxUserMenu.getChildren().add(labelDesc);
 			labelDesc.setWrapText(true);
 			labelDesc.setText("Zmodyfikowanie wartoœci polega na wybraniu wiersza na podstawie pierwszego parametru. Nastêpnie wpisane wartoœci podmienia ju¿ istniejace wartoœci w wybranym wierszu. Je¿eli wartoœæ ma pozostaæ bez zmian to zostawiamy pole puste. ");
+			labelDesc.setPadding(new Insets(10));
 			totalHeight = totalHeight + labelDesc.getPrefHeight();
 			
 			// Prepare arrays
@@ -277,7 +280,7 @@ public class Modify_data_screen_controller {
 			labelDes.setWrapText(true);
 			vBoxUserMenu.getChildren().add(labelDes);
 			labelDes.setText("Po klikniêciu przycisku zatwierdz zostanie usuniêty rekord z podana wartoœcia. Po zatiwerdzeniu nie mo¿na cofnaæ operacji.");
-
+			labelDes.setPadding(new Insets(10));
 			totalHeight = labelHeight + textFieldHeight + labelDes.getPrefHeight();
 			
 			vBoxUserMenu.setPrefHeight(totalHeight);
@@ -320,6 +323,9 @@ public class Modify_data_screen_controller {
 		String validationResults = validateUserInput();
 		if(validationResults != "OK")
 		{
+			Alert error = new Alert(AlertType.ERROR);
+			error.setContentText("Zosta³y wykorzystane niedozwolone znaki.");
+			error.show();
 			return;
 		}
 		// Check if mandatory values are provided
