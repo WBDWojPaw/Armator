@@ -1,4 +1,6 @@
 package fxmlControllers;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -11,9 +13,16 @@ import javafx.fxml.FXML;
 import javafx.geometry.Pos;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.image.Image;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundImage;
+import javafx.scene.layout.BackgroundPosition;
+import javafx.scene.layout.BackgroundRepeat;
+import javafx.scene.layout.BackgroundSize;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
@@ -22,6 +31,9 @@ public class Modify_data_screen_controller {
 
 	@FXML
 	private VBox vBoxUserMenu;
+	
+	@FXML
+	private Pane paneModifyData;
 	
 	@FXML
 	private Button buttonClose;
@@ -103,6 +115,24 @@ public class Modify_data_screen_controller {
 		// Set VBox
 		fillVBox();
 		
+		//Set Background
+		FileInputStream input;
+		try 
+		{
+			input = new FileInputStream("C:\\Users\\user\\eclipse-workspace\\WBD_client\\photos\\Sea.jpg");
+			Image image = new Image(input);
+			BackgroundImage backgroundimage = new BackgroundImage(image,
+												BackgroundRepeat.REPEAT,
+												BackgroundRepeat.REPEAT,
+												BackgroundPosition.DEFAULT,
+													BackgroundSize.DEFAULT);
+			Background background = new Background(backgroundimage);
+			paneModifyData.setBackground(background);
+		} 
+		catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 	

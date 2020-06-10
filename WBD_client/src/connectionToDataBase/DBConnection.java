@@ -15,9 +15,9 @@ public class DBConnection {
 		
 		try {
 			conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
-			Alert alert = new Alert(Alert.AlertType.INFORMATION);
-			alert.setTitle("You are connected to the Database");
-			alert.show();
+			//Alert alert = new Alert(Alert.AlertType.INFORMATION);
+			//alert.setTitle("You are connected to the Database");
+			//alert.show();
 		} catch (SQLException e) {
 			Alert alert = new Alert(Alert.AlertType.ERROR);
 			alert.setTitle("Error to database connection...");

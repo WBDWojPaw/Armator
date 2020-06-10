@@ -56,14 +56,13 @@ public class Login_screen_controller {
 		labelTitle.setFont(new Font("Arial",20));
 		labelLogin.setText("Login");
 		labelPassword.setText("Has³o");
-		labelWrongPass.setText("");
 		buttonLogin.setText("Zaloguj siê");
 		
 		//Set Background
 		FileInputStream input;
 		try 
 		{
-			input = new FileInputStream("C:\\Users\\user\\eclipse-workspace\\WBD_client\\photos\\tlo_login.png");
+			input = new FileInputStream("C:\\Users\\user\\eclipse-workspace\\WBD_client\\photos\\Sea.jpg");
 			Image image = new Image(input);
 			BackgroundImage backgroundimage = new BackgroundImage(image,
 												BackgroundRepeat.NO_REPEAT,

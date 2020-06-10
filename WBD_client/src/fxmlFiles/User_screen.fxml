@@ -8,26 +8,44 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane fx:id="paneUsersScreen" prefHeight="600.0" prefWidth="800.0">
+      <Pane fx:id="paneUsersScreen" prefHeight="600.0" prefWidth="1000.0">
          <children>
-            <Label fx:id="labelMenu" alignment="CENTER" layoutX="9.0" layoutY="10.0" prefHeight="40.0" prefWidth="110.0" text="Label" wrapText="true" />
-            <Button fx:id="buttonLogOut" layoutX="14.0" layoutY="533.0" mnemonicParsing="false" onAction="#logOut" prefHeight="40.0" prefWidth="100.0" text="Button" />
-            <TableView fx:id="tableViewData" layoutX="166.0" layoutY="55.0" prefHeight="450.0" prefWidth="605.0" />
-            <Label fx:id="labelTabelName" alignment="CENTER" layoutX="133.0" layoutY="10.0" prefHeight="40.0" prefWidth="640.0" text="Label" />
-            <ScrollPane fx:id="scrollPaneMenu" hbarPolicy="NEVER" layoutX="14.0" layoutY="55.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="450.0" prefWidth="140.0">
+            <Label fx:id="labelMenu" alignment="CENTER" layoutX="14.0" layoutY="10.0" prefHeight="40.0" prefWidth="140.0" text="Dostępne tablice" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+            <Button fx:id="buttonLogOut" layoutX="14.0" layoutY="533.0" mnemonicParsing="false" onAction="#logOut" prefHeight="40.0" prefWidth="140.0" text="Button" />
+            <TableView fx:id="tableViewData" layoutX="166.0" layoutY="55.0" prefHeight="519.0" prefWidth="605.0" />
+            <ScrollPane fx:id="scrollPaneMenu" hbarPolicy="NEVER" layoutX="14.0" layoutY="55.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="466.0" prefWidth="140.0" vbarPolicy="ALWAYS">
                <content>
-                  <VBox fx:id="vBoxMenu" prefHeight="449.0" prefWidth="123.0" />
+                  <VBox fx:id="vBoxMenu" prefHeight="465.0" prefWidth="123.0" />
                </content>
             </ScrollPane>
-            <TextField fx:id="textFieldSearchName" layoutX="170.0" layoutY="546.0" prefHeight="25.0" prefWidth="171.0" />
-            <Button fx:id="buttonSearch" layoutX="661.0" layoutY="546.0" mnemonicParsing="false" onAction="#searchTheDatabase" prefHeight="25.0" prefWidth="110.0" text="Button" />
-            <Label fx:id="labelSearchName" layoutX="170.0" layoutY="508.0" prefHeight="25.0" prefWidth="171.0" text="Label" />
-            <Label fx:id="labelSearchValue" layoutX="440.0" layoutY="512.0" prefHeight="17.0" prefWidth="171.0" text="Label" />
-            <TextField fx:id="textFieldSearchValue" layoutX="440.0" layoutY="546.0" prefHeight="25.0" prefWidth="171.0" />
-            <Button fx:id="buttonModify" layoutX="660.0" layoutY="508.0" mnemonicParsing="false" onAction="#openWindowToModifyData" prefHeight="25.0" prefWidth="110.0" text="Button" />
+            <TextField fx:id="textFieldSearchName" layoutX="800.0" layoutY="120.0" prefHeight="25.0" prefWidth="170.0" />
+            <Button fx:id="buttonSearch" layoutX="800.0" layoutY="240.0" mnemonicParsing="false" onAction="#searchTheDatabase" prefHeight="25.0" prefWidth="170.0" text="Button" />
+            <Label fx:id="labelSearchName" layoutX="800.0" layoutY="95.0" prefHeight="25.0" prefWidth="170.0" text="Label" />
+            <Label fx:id="labelSearchValue" layoutX="800.0" layoutY="155.0" prefHeight="25.0" prefWidth="170.0" text="Label" />
+            <TextField fx:id="textFieldSearchValue" layoutX="800.0" layoutY="180.0" prefHeight="25.0" prefWidth="170.0" />
+            <Button fx:id="buttonModify" layoutX="789.0" layoutY="533.0" mnemonicParsing="false" onAction="#openWindowToModifyData" prefHeight="40.0" prefWidth="170.0" text="Button" />
+            <Label fx:id="labelModify" layoutX="789.0" layoutY="482.0" prefHeight="32.0" prefWidth="170.0" text="Modyfikuj dane :">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelSearch" layoutX="800.0" layoutY="55.0" prefHeight="25.0" prefWidth="170.0" text="Wyszukiwanie :">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelTabelName" alignment="CENTER" contentDisplay="CENTER" layoutX="166.0" layoutY="10.0" prefHeight="40.0" prefWidth="605.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
          </children>
       </Pane>
    </children>

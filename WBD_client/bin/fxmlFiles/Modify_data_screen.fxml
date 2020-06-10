@@ -9,9 +9,9 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane prefHeight="600.0" prefWidth="600.0">
+      <Pane fx:id="paneModifyData" prefHeight="600.0" prefWidth="600.0">
          <children>
-            <ScrollPane hbarPolicy="NEVER" layoutX="184.0" layoutY="74.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="420.0" prefWidth="400.0">
+            <ScrollPane hbarPolicy="NEVER" layoutX="184.0" layoutY="74.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="420.0" prefWidth="400.0" vbarPolicy="ALWAYS">
                <content>
                   <VBox fx:id="vBoxUserMenu" nodeOrientation="LEFT_TO_RIGHT" prefHeight="416.0" prefWidth="384.0" />
                </content>

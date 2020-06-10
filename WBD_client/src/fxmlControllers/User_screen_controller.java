@@ -55,6 +55,10 @@ public class User_screen_controller {
 	@FXML
 	private Label labelTabelName;
 	@FXML
+	private Label labelModify;
+	@FXML
+	private Label labelSearch;
+	@FXML
 	private Button buttonLogOut;	
 	@FXML
 	private TableView tableViewData;
@@ -139,7 +143,7 @@ public class User_screen_controller {
 		FileInputStream input;
 		try 
 		{
-			input = new FileInputStream("C:\\Users\\user\\eclipse-workspace\\WBD_client\\photos\\tlo_login.png");
+			input = new FileInputStream("C:\\Users\\user\\eclipse-workspace\\WBD_client\\photos\\Sea.jpg");
 			Image image = new Image(input);
 			BackgroundImage backgroundimage = new BackgroundImage(image,
 												BackgroundRepeat.REPEAT,
@@ -203,7 +207,7 @@ public class User_screen_controller {
 	@FXML
 	private void searchTheDatabase(ActionEvent event)
 	{
-		String userTextName = textFieldSearchName.getText();
+		String userTextName = textFieldSearchName.getText().toUpperCase();
 		String userTextValue = textFieldSearchValue.getText();
 		// Check for potential SQL Injection
 		boolean isNotOk = validateUsersArgument(userTextName);
@@ -408,9 +412,7 @@ public class User_screen_controller {
 	{
 		// Prepare and set texts 
 		labelMenu.setText("Dostêpne tablice");
-		labelMenu.setFont(new Font("Arial",15));
-		labelTabelName.setText("Tablice : "+ SQLTable);
-		labelTabelName.setFont(new Font("Arial",20));
+		labelTabelName.setText("Tablica "+ SQLTable.toLowerCase());
 		labelSearchName.setText("Wyszukaj w kolumnie");
 		labelSearchValue.setText("Wartoœæ do wyszukania");
 		buttonLogOut.setText("Wyloguj siê");
@@ -459,7 +461,7 @@ public class User_screen_controller {
 			break;
 		}
 		// Change the name above table
-		labelTabelName.setText("Tablice : "+ SQLTable);
+		labelTabelName.setText("Tablica "+ SQLTable.toLowerCase());
 		// Get Data from Database
 		try 
 		{
